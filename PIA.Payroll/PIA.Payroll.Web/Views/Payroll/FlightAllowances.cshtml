@@ -1,0 +1,86 @@
+@{
+    ViewData["Title"] = "Flight & Aviation Allowances - PIA Payroll";
+}
+
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <div>
+        <h4 class="fw-bold m-0">Flight & Technical Aviation Allowances</h4>
+        <small class="text-muted">Manage flying hours, logbook allowances, and crew disbursements</small>
+    </div>
+    <a href="/Payroll" class="btn btn-light border px-3 py-2" style="border-radius: 10px;">
+        <i class="fa-solid fa-arrow-left me-1"></i> Back to Payroll
+    </a>
+</div>
+
+<!-- Summary Bar -->
+<div class="row g-4 mb-4">
+    <div class="col-md-4">
+        <div class="card card-custom p-4 h-100" style="border-left: 5px solid #08663e; background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);">
+            <small class="text-muted text-uppercase fw-bold letter-spacing-1">Active Flight Crew</small>
+            <h3 class="fw-bold my-2" style="color: #032014;">428</h3>
+            <small class="text-muted">Pilots, First Officers & Cabin Crew</small>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card card-custom p-4 h-100" style="border-left: 5px solid #d4af37; background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);">
+            <small class="text-muted text-uppercase fw-bold letter-spacing-1">Total Flight Hours Logged</small>
+            <h3 class="fw-bold my-2" style="color: #c29b38;">14,250 hrs</h3>
+            <small class="text-muted">Current Month Logbook</small>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card card-custom p-4 h-100" style="border-left: 5px solid #032014; background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);">
+            <small class="text-muted text-uppercase fw-bold letter-spacing-1">Total Allowance Outlay</small>
+            <h3 class="fw-bold my-2" style="color: #032014;">PKR 12.4M</h3>
+            <small class="text-muted">Calculated Aviation Pay</small>
+        </div>
+    </div>
+</div>
+
+<!-- Logbook Table -->
+<div class="card card-custom p-0 border-0 shadow-sm" style="border-radius: 16px; overflow: hidden;">
+    <div class="bg-light p-4 border-bottom">
+        <h5 class="fw-bold mb-0 text-dark">Crew Flying Hours & Rates Master</h5>
+    </div>
+    <div class="table-responsive">
+        <table class="table table-hover align-middle mb-0">
+            <thead class="table-light">
+                <tr class="small text-uppercase text-secondary">
+                    <th>P-Number</th>
+                    <th>Crew Member</th>
+                    <th>Cadre / Designation</th>
+                    <th>Flight Hours</th>
+                    <th>Hourly Rate</th>
+                    <th>Calculated Allowance</th>
+                    <th class="text-end">Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="fw-bold" style="color: #08663e;">10001</td>
+                    <td>
+                        <div class="fw-bold text-dark">Effa Siddiqui</div>
+                        <small class="text-muted">Flight Operations</small>
+                    </td>
+                    <td><span class="badge bg-warning text-dark">Senior Captain</span></td>
+                    <td>85 hrs</td>
+                    <td>PKR 12,000 / hr</td>
+                    <td class="fw-bold text-success">PKR 1,020,000</td>
+                    <td class="text-end"><span class="badge bg-success">Verified</span></td>
+                </tr>
+                <tr>
+                    <td class="fw-bold" style="color: #08663e;">10008</td>
+                    <td>
+                        <div class="fw-bold text-dark">Tariq Mahmood</div>
+                        <small class="text-muted">Flight Operations</small>
+                    </td>
+                    <td><span class="badge bg-info text-dark">First Officer</span></td>
+                    <td>72 hrs</td>
+                    <td>PKR 8,500 / hr</td>
+                    <td class="fw-bold text-success">PKR 612,000</td>
+                    <td class="text-end"><span class="badge bg-success">Verified</span></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

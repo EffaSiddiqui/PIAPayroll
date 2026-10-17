@@ -1,0 +1,139 @@
+:root {
+  --pia-primary: #006837;
+  --pia-primary-hover: #004d26;
+  --pia-accent: #c5a059;
+  --pia-dark: #0f241a;
+  --pia-light: #f7faf8;
+}
+
+html {
+  font-size: 14px;
+  position: relative;
+  min-height: 100%;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+body {
+  margin-bottom: 60px;
+  background-color: #f8faf9;
+  color: #2b3035;
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem rgba(0, 104, 55, 0.25);
+  border-color: var(--pia-primary);
+}
+
+/* PIA Brand Theme Colors & Buttons */
+.bg-pia {
+  background-color: var(--pia-primary) !important;
+}
+
+.text-pia {
+  color: var(--pia-primary) !important;
+}
+
+.btn-pia-primary {
+  background-color: var(--pia-primary);
+  border-color: var(--pia-primary);
+  color: #ffffff;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-pia-primary:hover, .btn-pia-primary:focus, .btn-pia-primary:active {
+  background-color: var(--pia-primary-hover);
+  border-color: var(--pia-primary-hover);
+  color: #ffffff;
+}
+
+/* Auth Layout Styles */
+.auth-body {
+  background: linear-gradient(135deg, #f0f5f2 0%, #e6efe9 100%);
+  min-height: 100vh;
+  margin-bottom: 0;
+}
+
+.auth-wrapper {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.auth-card-container {
+  width: 100%;
+  max-width: 460px;
+}
+
+.auth-card {
+  border-radius: 12px;
+  border-top: 5px solid var(--pia-primary) !important;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08) !important;
+  background-color: #ffffff;
+}
+
+.pia-logo-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 58px;
+  height: 58px;
+  background: linear-gradient(135deg, var(--pia-primary) 0%, #004d26 100%);
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 104, 55, 0.3);
+}
+
+.pia-logo-text {
+  color: #ffffff;
+  font-weight: 800;
+  font-size: 1.35rem;
+  letter-spacing: 1px;
+}
+
+.pia-brand-title {
+  color: #1a2f23;
+  letter-spacing: -0.2px;
+}
+
+.pia-brand-subtitle {
+  color: #5a7364;
+}
+
+/* Password Toggle Field */
+.toggle-password-btn {
+  border-color: #ced4da;
+  background-color: #ffffff;
+  color: #6c757d;
+}
+
+.toggle-password-btn:hover {
+  background-color: #f8f9fa;
+  color: #212529;
+  border-color: #ced4da;
+}
+
+/* Dashboard & Cards */
+.stat-card {
+  border-radius: 10px;
+  transition: transform 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.stat-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.07) !important;
+}
+
+.empty-state-card {
+  border-radius: 12px;
+  background-color: #ffffff;
+}
+
+.dev-quick-login-section {
+  background-color: #fffdf5;
+  border-radius: 8px;
+  padding: 12px;
+  border: 1px dashed #e0c875 !important;
+}

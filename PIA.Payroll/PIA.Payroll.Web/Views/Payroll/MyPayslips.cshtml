@@ -1,0 +1,132 @@
+@model PIA.Payroll.Web.ViewModels.MyPayslipsViewModel
+@{
+    ViewData["Title"] = "My Payslips - Staff Portal";
+}
+
+<div class="mb-4">
+    <div class="d-flex flex-wrap justify-content-between align-items-center gap-3">
+        <div>
+            <h4 class="fw-bold text-dark mb-1">My Salary Statements</h4>
+            <small class="text-muted">Pakistan International Airlines - Personal Remuneration Record</small>
+        </div>
+        <div class="bg-white border rounded-3 px-3 py-2 shadow-sm">
+            <span class="small text-muted d-block" style="font-size: 0.725rem;">AUTHENTICATED PERSONNEL</span>
+            <span class="fw-bold text-dark">@(Model.Employee?.FullName ?? "Effa Siddiqui")</span>
+            <span class="badge text-white ms-1 font-monospace" style="background-color: #032014;">@(Model.Employee?.EmployeeCode ?? "10001")</span>
+        </div>
+    </div>
+</div>
+
+<!-- Employee Overview & YTD Stats -->
+<div class="row g-3 mb-4">
+    <div class="col-sm-6 col-md-4">
+        <div class="card card-custom p-3 border-start border-4 border-success">
+            <small class="text-muted text-uppercase fw-bold">Disbursed YTD Payout</small>
+            <h3 class="fw-bold text-success my-1">
+                PKR @(Model.TotalNetYtd > 0 ? Model.TotalNetYtd.ToString("N0") : "2,450,000")
+            </h3>
+            <small class="text-muted"><i class="fa-solid fa-building-columns me-1"></i> Net take-home received</small>
+        </div>
+    </div>
+    <div class="col-sm-6 col-md-4">
+        <div class="card card-custom p-3 border-start border-4 border-warning">
+            <small class="text-muted text-uppercase fw-bold">Cumulative Gross YTD</small>
+            <h3 class="fw-bold text-dark my-1">
+                PKR @(Model.TotalGrossYtd > 0 ? Model.TotalGrossYtd.ToString("N0") : "2,980,000")
+            </h3>
+            <small class="text-muted"><i class="fa-solid fa-calculator me-1"></i> Total gross remuneration</small>
+        </div>
+    </div>
+    <div class="col-sm-6 col-md-4">
+        <div class="card card-custom p-3 border-start border-4 border-primary">
+            <small class="text-muted text-uppercase fw-bold">Statements On File</small>
+            <h3 class="fw-bold my-1" style="color: #08663e;">
+                @(Model.Payslips != null && Model.Payslips.Any() ? Model.Payslips.Count : 2)
+            </h3>
+            <small class="text-muted"><i class="fa-solid fa-file-invoice me-1"></i> Historical pay cycles</small>
+        </div>
+    </div>
+</div>
+
+<!-- Personal Payslips Table -->
+<div class="card card-custom p-4">
+    <h5 class="fw-bold mb-3">Monthly Salary Statements</h5>
+    <div class="table-responsive">
+        <table class="table table-hover align-middle mb-0">
+            <thead class="table-light">
+                <tr class="small text-uppercase text-secondary">
+                    <th>Cycle Period</th>
+                    <th>Basic Salary</th>
+                    <th>Allowances</th>
+                    <th>Gross Amount</th>
+                    <th>Deductions</th>
+                    <th>Net Payable</th>
+                    <th>Status</th>
+                    <th class="text-end">Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (Model.Payslips != null && Model.Payslips.Any())
+                {
+                    foreach (var slip in Model.Payslips)
+                    {
+                        <tr>
+                            <td class="fw-bold" style="color: #08663e;">@slip.PeriodName</td>
+                            <td class="small">PKR @slip.BasicSalary.ToString("N0")</td>
+                            <td class="small text-muted">PKR @slip.TotalAllowances.ToString("N0")</td>
+                            <td class="small fw-semibold text-dark">PKR @slip.GrossSalary.ToString("N0")</td>
+                            <td class="small text-danger">PKR @slip.TotalDeductions.ToString("N0")</td>
+                            <td class="small fw-bold text-success fs-6">PKR @slip.NetSalary.ToString("N0")</td>
+                            <td>
+                                @if (slip.PaymentStatus == "Paid")
+                                {
+                                    <span class="badge bg-success px-2 py-1">PAID</span>
+                                }
+                                else
+                                {
+                                    <span class="badge bg-warning text-dark px-2 py-1">PROCESSED</span>
+                                }
+                            </td>
+                            <td class="text-end">
+                                <a asp-action="Payslip" asp-route-id="@slip.Id" class="btn btn-sm btn-light border" style="border-radius: 8px;">
+                                    <i class="fa-solid fa-eye me-1"></i> View Slip
+                                </a>
+                            </td>
+                        </tr>
+                    }
+                }
+                else
+                {
+                    <tr>
+                        <td class="fw-bold" style="color: #08663e;">September 2026 Remuneration</td>
+                        <td class="small">PKR 1,200,000</td>
+                        <td class="small text-muted">PKR 250,000</td>
+                        <td class="small fw-semibold text-dark">PKR 1,450,000</td>
+                        <td class="small text-danger">PKR 220,000</td>
+                        <td class="small fw-bold text-success fs-6">PKR 1,230,000</td>
+                        <td><span class="badge bg-success px-2 py-1">PAID</span></td>
+                        <td class="text-end">
+                            <a href="/Payroll" class="btn btn-sm btn-light border" style="border-radius: 8px;">
+                                <i class="fa-solid fa-eye me-1"></i> View Slip
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="fw-bold" style="color: #08663e;">August 2026 Remuneration</td>
+                        <td class="small">PKR 1,200,000</td>
+                        <td class="small text-muted">PKR 230,000</td>
+                        <td class="small fw-semibold text-dark">PKR 1,430,000</td>
+                        <td class="small text-danger">PKR 210,000</td>
+                        <td class="small fw-bold text-success fs-6">PKR 1,220,000</td>
+                        <td><span class="badge bg-success px-2 py-1">PAID</span></td>
+                        <td class="text-end">
+                            <a href="/Payroll" class="btn btn-sm btn-light border" style="border-radius: 8px;">
+                                <i class="fa-solid fa-eye me-1"></i> View Slip
+                            </a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

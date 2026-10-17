@@ -1,0 +1,167 @@
+@model PIA.Payroll.Web.ViewModels.EmployeeCreateViewModel
+@{
+    ViewData["Title"] = "Enroll New Employee - PIA Payroll";
+}
+
+<div class="mb-4">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb mb-1 small">
+            <li class="breadcrumb-item"><a asp-action="Index" class="text-decoration-none text-pia">Employees</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Enroll New Personnel</li>
+        </ol>
+    </nav>
+    <h1 class="h3 fw-bold text-dark mb-1">Personnel Registration</h1>
+    <p class="text-muted mb-0">Add a new Pakistan International Airlines staff member to the payroll system</p>
+</div>
+
+<div class="card shadow-sm border-0">
+    <div class="card-body p-4 p-md-5">
+        <form asp-action="Create" method="post">
+            <div asp-validation-summary="ModelOnly" class="alert alert-danger py-2 small" role="alert"></div>
+
+            <h5 class="fw-bold text-dark border-bottom pb-2 mb-4">
+                1. Personal Particulars & Identification
+            </h5>
+
+            <div class="row g-3 mb-4">
+                <div class="col-md-4">
+                    <label asp-for="Employee.EmployeeCode" class="form-label fw-semibold small text-secondary"></label>
+                    <input asp-for="Employee.EmployeeCode" class="form-control font-monospace" placeholder="e.g. PIA-8805" />
+                    <span asp-validation-for="Employee.EmployeeCode" class="text-danger small"></span>
+                </div>
+
+                <div class="col-md-4">
+                    <label asp-for="Employee.FirstName" class="form-label fw-semibold small text-secondary"></label>
+                    <input asp-for="Employee.FirstName" class="form-control" placeholder="First Name" />
+                    <span asp-validation-for="Employee.FirstName" class="text-danger small"></span>
+                </div>
+
+                <div class="col-md-4">
+                    <label asp-for="Employee.LastName" class="form-label fw-semibold small text-secondary"></label>
+                    <input asp-for="Employee.LastName" class="form-control" placeholder="Last Name" />
+                    <span asp-validation-for="Employee.LastName" class="text-danger small"></span>
+                </div>
+
+                <div class="col-md-4">
+                    <label asp-for="Employee.FatherName" class="form-label fw-semibold small text-secondary"></label>
+                    <input asp-for="Employee.FatherName" class="form-control" placeholder="Father's Full Name" />
+                    <span asp-validation-for="Employee.FatherName" class="text-danger small"></span>
+                </div>
+
+                <div class="col-md-4">
+                    <label asp-for="Employee.CNIC" class="form-label fw-semibold small text-secondary"></label>
+                    <input asp-for="Employee.CNIC" class="form-control font-monospace" placeholder="42101-1234567-1" />
+                    <span asp-validation-for="Employee.CNIC" class="text-danger small"></span>
+                    <small class="text-muted d-block mt-1">Format: 5 digits - 7 digits - 1 digit</small>
+                </div>
+
+                <div class="col-md-4">
+                    <label asp-for="Employee.Gender" class="form-label fw-semibold small text-secondary"></label>
+                    <select asp-for="Employee.Gender" class="form-select">
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                        <option value="Other">Other</option>
+                    </select>
+                    <span asp-validation-for="Employee.Gender" class="text-danger small"></span>
+                </div>
+
+                <div class="col-md-4">
+                    <label asp-for="Employee.DateOfBirth" class="form-label fw-semibold small text-secondary"></label>
+                    <input asp-for="Employee.DateOfBirth" type="date" class="form-control" />
+                    <span asp-validation-for="Employee.DateOfBirth" class="text-danger small"></span>
+                </div>
+
+                <div class="col-md-4">
+                    <label asp-for="Employee.PhoneNumber" class="form-label fw-semibold small text-secondary"></label>
+                    <input asp-for="Employee.PhoneNumber" class="form-control" placeholder="+92-300-1234567" />
+                    <span asp-validation-for="Employee.PhoneNumber" class="text-danger small"></span>
+                </div>
+
+                <div class="col-md-4">
+                    <label asp-for="Employee.PersonalEmail" class="form-label fw-semibold small text-secondary"></label>
+                    <input asp-for="Employee.PersonalEmail" type="email" class="form-control" placeholder="personal@example.com" />
+                    <span asp-validation-for="Employee.PersonalEmail" class="text-danger small"></span>
+                </div>
+
+                <div class="col-md-4">
+                    <label asp-for="Employee.CellPhoneNumber" class="form-label fw-semibold small text-secondary"></label>
+                    <input asp-for="Employee.CellPhoneNumber" class="form-control" placeholder="0300-1234567" />
+                    <span asp-validation-for="Employee.CellPhoneNumber" class="text-danger small"></span>
+                </div>
+            </div>
+
+            <h5 class="fw-bold text-dark border-bottom pb-2 mb-4 pt-3">
+                2. Corporate Deployment & Service
+            </h5>
+
+            <div class="row g-3 mb-4">
+                <div class="col-md-6">
+                    <label asp-for="Employee.OfficialEmail" class="form-label fw-semibold small text-secondary"></label>
+                    <input asp-for="Employee.OfficialEmail" type="email" class="form-control" placeholder="username@piapayroll.local" />
+                    <span asp-validation-for="Employee.OfficialEmail" class="text-danger small"></span>
+                    <small class="text-muted d-block mt-1">Used for system authentication & official communications.</small>
+                </div>
+
+                <div class="col-md-6">
+                    <label asp-for="Employee.JoiningDate" class="form-label fw-semibold small text-secondary"></label>
+                    <input asp-for="Employee.JoiningDate" type="date" class="form-control" />
+                    <span asp-validation-for="Employee.JoiningDate" class="text-danger small"></span>
+                </div>
+
+                <div class="col-md-4">
+                    <label asp-for="Employee.DepartmentId" class="form-label fw-semibold small text-secondary"></label>
+                    <select asp-for="Employee.DepartmentId" class="form-select">
+                        <option value="">-- Select Department --</option>
+                        @foreach (var dept in Model.Departments)
+                        {
+                            <option value="@dept.Id">@dept.Name (@dept.Code)</option>
+                        }
+                    </select>
+                    <span asp-validation-for="Employee.DepartmentId" class="text-danger small"></span>
+                </div>
+
+                <div class="col-md-4">
+                    <label asp-for="Employee.DesignationId" class="form-label fw-semibold small text-secondary"></label>
+                    <select asp-for="Employee.DesignationId" class="form-select">
+                        <option value="">-- Select Designation --</option>
+                        @foreach (var desig in Model.Designations)
+                        {
+                            <option value="@desig.Id">@desig.Name</option>
+                        }
+                    </select>
+                    <span asp-validation-for="Employee.DesignationId" class="text-danger small"></span>
+                </div>
+
+                <div class="col-md-4">
+                    <label asp-for="Employee.EmploymentStatus" class="form-label fw-semibold small text-secondary"></label>
+                    <select asp-for="Employee.EmploymentStatus" class="form-select">
+                        <option value="Active">Active</option>
+                        <option value="Inactive">Inactive</option>
+                    </select>
+                    <span asp-validation-for="Employee.EmploymentStatus" class="text-danger small"></span>
+                </div>
+
+                <div class="col-md-4">
+                    <label asp-for="Employee.Location" class="form-label fw-semibold small text-secondary"></label>
+                    <input asp-for="Employee.Location" class="form-control" placeholder="e.g. Head Office" />
+                    <span asp-validation-for="Employee.Location" class="text-danger small"></span>
+                </div>
+
+                <div class="col-md-4">
+                    <label asp-for="Employee.Extension" class="form-label fw-semibold small text-secondary"></label>
+                    <input asp-for="Employee.Extension" class="form-control" placeholder="e.g. 1234" />
+                    <span asp-validation-for="Employee.Extension" class="text-danger small"></span>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-end gap-2 pt-3 border-top">
+                <a asp-action="Index" class="btn btn-outline-secondary px-4">Cancel</a>
+                <button type="submit" class="btn btn-pia-primary px-5 fw-semibold shadow-sm">Save & Enroll</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

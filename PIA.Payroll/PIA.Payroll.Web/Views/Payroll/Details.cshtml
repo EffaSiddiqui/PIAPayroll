@@ -1,0 +1,203 @@
+@model PIA.Payroll.Web.ViewModels.PayrollPeriodDetailsViewModel
+@{
+    ViewData["Title"] = $"Payroll Run - {Model.Period.PeriodName}";
+}
+
+<div class="mb-4">
+    <div class="d-flex flex-wrap justify-content-between align-items-center gap-3">
+        <div>
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb mb-1 small">
+                    <li class="breadcrumb-item"><a asp-action="Index" class="text-decoration-none text-pia">Payroll</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">@Model.Period.PeriodName</li>
+                </ol>
+            </nav>
+            <div class="d-flex align-items-center gap-3">
+                <h1 class="h3 fw-bold text-dark mb-0">@Model.Period.PeriodName</h1>
+                @if (Model.Period.Status == "Paid")
+                {
+                    <span class="badge bg-success px-3 py-2">FINALIZED & PAID</span>
+                }
+                else if (Model.Period.Status == "Processed")
+                {
+                    <span class="badge bg-primary px-3 py-2">PROCESSED</span>
+                }
+                else
+                {
+                    <span class="badge bg-secondary px-3 py-2">DRAFT</span>
+                }
+            </div>
+            <p class="text-muted mb-0 small">
+                Cycle Bounds: @Model.Period.StartDate.ToString("dd MMMM yyyy") &ndash; @Model.Period.EndDate.ToString("dd MMMM yyyy")
+                @if (Model.Period.ProcessedDate.HasValue)
+                {
+                    <span> &bull; Calculated on @Model.Period.ProcessedDate.Value.ToString("dd MMM yyyy HH:mm") by @(Model.Period.ProcessedBy ?? "Admin")</span>
+                }
+            </p>
+        </div>
+
+        <div class="d-flex gap-2">
+            <a asp-action="Index" class="btn btn-outline-secondary">
+                &larr; All Periods
+            </a>
+
+            @if (Model.Period.Status != "Paid")
+            {
+                <form asp-action="ProcessPeriod" asp-route-id="@Model.Period.Id" method="post" class="d-inline" onsubmit="return confirm('Execute automatic payroll computation for all active personnel?');">
+                    <button type="submit" class="btn btn-pia-primary shadow-sm">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cpu me-1" viewBox="0 0 16 16">
+                            <path d="M5 0a.5.5 0 0 1 .5.5V2h1V.5a.5.5 0 0 1 1 0V2h1V.5a.5.5 0 0 1 1 0V2h1V.5a.5.5 0 0 1 1 0V2A2.5 2.5 0 0 1 14 4.5h1.5a.5.5 0 0 1 0 1H14v1h1.5a.5.5 0 0 1 0 1H14v1h1.5a.5.5 0 0 1 0 1H14v1h1.5a.5.5 0 0 1 0 1H14A2.5 2.5 0 0 1 11.5 14v1.5a.5.5 0 0 1-1 0V14h-1v1.5a.5.5 0 0 1-1 0V14h-1v1.5a.5.5 0 0 1-1 0V14h-1v1.5a.5.5 0 0 1-1 0V14A2.5 2.5 0 0 1 2 11.5H.5a.5.5 0 0 1 0-1H2v-1H.5a.5.5 0 0 1 0-1H2v-1H.5a.5.5 0 0 1 0-1H2v-1H.5a.5.5 0 0 1 0-1H2A2.5 2.5 0 0 1 4.5 2V.5A.5.5 0 0 1 5 0"/>
+                        </svg>
+                        @(Model.Period.Status == "Draft" ? "Process Active Payroll" : "Reprocess Payroll")
+                    </button>
+                </form>
+
+                @if (Model.Period.Status == "Processed")
+                {
+                    <form asp-action="MarkAsPaid" asp-route-id="@Model.Period.Id" method="post" class="d-inline" onsubmit="return confirm('Are you sure you want to finalize this cycle and mark all payslips as PAID? This operation cannot be undone.');">
+                        <button type="submit" class="btn btn-success shadow-sm">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2-circle me-1" viewBox="0 0 16 16">
+                                <path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0"/>
+                                <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0z"/>
+                            </svg>
+                            Mark as Paid & Disbursed
+                        </button>
+                    </form>
+                }
+            }
+        </div>
+    </div>
+</div>
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success alert-dismissible fade show shadow-sm" role="alert">
+        <strong>Success:</strong> @TempData["SuccessMessage"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger alert-dismissible fade show shadow-sm" role="alert">
+        <strong>Notice:</strong> @TempData["ErrorMessage"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+
+<!-- Useful Totals Bar -->
+<div class="row g-3 mb-4">
+    <div class="col-sm-6 col-xl-3">
+        <div class="card stat-card shadow-sm border-0 h-100">
+            <div class="card-body">
+                <span class="text-muted small text-uppercase fw-semibold">Employees Processed</span>
+                <h3 class="fw-bold text-dark mb-0">@Model.Period.TotalEmployeesProcessed</h3>
+                <small class="text-muted">&bull; Active staff roster</small>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6 col-xl-3">
+        <div class="card stat-card shadow-sm border-0 h-100">
+            <div class="card-body">
+                <span class="text-muted small text-uppercase fw-semibold">Gross Payroll</span>
+                <h3 class="fw-bold text-dark mb-0">PKR @Model.Period.TotalGrossSalary.ToString("N0")</h3>
+                <small class="text-muted">&bull; Basic + allowances</small>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6 col-xl-3">
+        <div class="card stat-card shadow-sm border-0 h-100">
+            <div class="card-body">
+                <span class="text-muted small text-uppercase fw-semibold">Total Deductions</span>
+                <h3 class="fw-bold text-danger mb-0">PKR @Model.Period.TotalDeductions.ToString("N0")</h3>
+                <small class="text-muted">&bull; Tax, PF & withholdings</small>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6 col-xl-3">
+        <div class="card stat-card shadow-sm border-0 h-100">
+            <div class="card-body">
+                <span class="text-muted small text-uppercase fw-semibold">Net Payroll</span>
+                <h3 class="fw-bold text-success mb-0">PKR @Model.Period.TotalNetSalary.ToString("N0")</h3>
+                <small class="text-success">&bull; Total net disbursement</small>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Payslips Line Items Table -->
+<div class="card shadow-sm border-0">
+    <div class="card-header bg-white border-bottom py-3 d-flex justify-content-between align-items-center">
+        <h5 class="card-title fw-bold text-dark mb-0">Calculated Employee Payroll Entries</h5>
+        <span class="small text-muted">@Model.Payslips.Count records</span>
+    </div>
+    <div class="table-responsive">
+        <table class="table table-hover align-middle mb-0">
+            <thead class="table-light border-bottom">
+                <tr class="small text-uppercase text-secondary">
+                    <th class="ps-3 py-3">Code</th>
+                    <th>Employee Name</th>
+                    <th>Department</th>
+                    <th>Basic Salary</th>
+                    <th>Allowances</th>
+                    <th>Gross Salary</th>
+                    <th>Deductions</th>
+                    <th>Net Payable</th>
+                    <th>Status</th>
+                    <th class="text-end pe-3">Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (!Model.Payslips.Any())
+                {
+                    <tr>
+                        <td colspan="10" class="text-center py-5 text-muted">
+                            <p class="mb-2">No employee payroll records generated yet for this period.</p>
+                            @if (Model.Period.Status != "Paid")
+                            {
+                                <p class="small text-muted mb-0">Click the <strong>Process Active Payroll</strong> button above to calculate salaries for all active employees.</p>
+                            }
+                        </td>
+                    </tr>
+                }
+                else
+                {
+                    @foreach (var slip in Model.Payslips)
+                    {
+                        <tr>
+                            <td class="ps-3 font-monospace fw-semibold text-pia">@slip.EmployeeCode</td>
+                            <td>
+                                <div class="fw-semibold text-dark">@slip.EmployeeName</div>
+                                <small class="text-muted">@(slip.DesignationName ?? "Staff")</small>
+                            </td>
+                            <td>@(slip.DepartmentName ?? "-")</td>
+                            <td class="small">PKR @slip.BasicSalary.ToString("N0")</td>
+                            <td class="small text-muted">PKR @slip.TotalAllowances.ToString("N0")</td>
+                            <td class="small fw-semibold text-dark">PKR @slip.GrossSalary.ToString("N0")</td>
+                            <td class="small text-danger">PKR @slip.TotalDeductions.ToString("N0")</td>
+                            <td class="small fw-bold text-success">PKR @slip.NetSalary.ToString("N0")</td>
+                            <td>
+                                @if (slip.PaymentStatus == "Paid")
+                                {
+                                    <span class="badge bg-success-subtle text-success border border-success-subtle">PAID</span>
+                                }
+                                else
+                                {
+                                    <span class="badge bg-warning-subtle text-dark border border-warning-subtle">PENDING</span>
+                                }
+                            </td>
+                            <td class="text-end pe-3">
+                                <form asp-controller="Payroll" asp-action="TogglePayslipStatus" asp-route-id="@slip.Id" method="post" class="d-inline">
+                                    <button type="submit" class="btn btn-outline-primary btn-sm me-1" title="Toggle Paid Status">Toggle</button>
+                                </form>
+                                <a asp-action="Payslip" asp-route-id="@slip.Id" class="btn btn-outline-secondary btn-sm" title="View Printable Statement">
+                                    Payslip
+                                </a>
+                            </td>
+                        </tr>
+                    }
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

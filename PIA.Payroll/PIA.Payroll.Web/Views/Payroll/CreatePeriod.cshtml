@@ -1,0 +1,91 @@
+@model PIA.Payroll.Application.DTOs.CreatePayrollPeriodDto
+@{
+    ViewData["Title"] = "Initialize Payroll Period - PIA Payroll";
+}
+
+<div class="mb-4">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb mb-1 small">
+            <li class="breadcrumb-item"><a asp-action="Index" class="text-decoration-none text-success fw-bold">Payroll</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Initialize Period</li>
+        </ol>
+    </nav>
+    <h4 class="fw-bold text-dark mb-0">Create Payroll Period</h4>
+    <small class="text-muted">Define calendar bounds for a new corporate salary processing cycle</small>
+</div>
+
+<div class="col-lg-8 mx-auto">
+    <div class="card card-custom p-4">
+        <form asp-action="CreatePeriod" method="post">
+            <div asp-validation-summary="ModelOnly" class="alert alert-danger py-2 small" role="alert"></div>
+
+            <div class="row g-3 mb-4">
+                <div class="col-md-6">
+                    <label asp-for="Month" class="form-label fw-bold small text-uppercase text-secondary">Cycle Month</label>
+                    <select asp-for="Month" class="form-select" id="cycleMonthSelect" onchange="autoAdjustDates()" style="border-radius: 10px;">
+                        <option value="1">1 - January</option>
+                        <option value="2">2 - February</option>
+                        <option value="3">3 - March</option>
+                        <option value="4">4 - April</option>
+                        <option value="5">5 - May</option>
+                        <option value="6">6 - June</option>
+                        <option value="7">7 - July</option>
+                        <option value="8">8 - August</option>
+                        <option value="9">9 - September</option>
+                        <option value="10">10 - October</option>
+                        <option value="11">11 - November</option>
+                        <option value="12">12 - December</option>
+                    </select>
+                    <span asp-validation-for="Month" class="text-danger small"></span>
+                </div>
+
+                <div class="col-md-6">
+                    <label asp-for="Year" class="form-label fw-bold small text-uppercase text-secondary">Cycle Year</label>
+                    <input asp-for="Year" class="form-control" type="number" min="2020" max="2099" id="cycleYearInput" onchange="autoAdjustDates()" style="border-radius: 10px;" />
+                    <span asp-validation-for="Year" class="text-danger small"></span>
+                </div>
+
+                <div class="col-md-6">
+                    <label asp-for="StartDate" class="form-label fw-bold small text-uppercase text-secondary">Start Date</label>
+                    <input asp-for="StartDate" type="date" class="form-control" id="startDateInput" style="border-radius: 10px;" />
+                    <span asp-validation-for="StartDate" class="text-danger small"></span>
+                </div>
+
+                <div class="col-md-6">
+                    <label asp-for="EndDate" class="form-label fw-bold small text-uppercase text-secondary">End Date</label>
+                    <input asp-for="EndDate" type="date" class="form-control" id="endDateInput" style="border-radius: 10px;" />
+                    <span asp-validation-for="EndDate" class="text-danger small"></span>
+                </div>
+
+                <div class="col-12">
+                    <label asp-for="Notes" class="form-label fw-bold small text-uppercase text-secondary">Internal Notes</label>
+                    <textarea asp-for="Notes" class="form-control" rows="3" placeholder="Optional internal notes or disbursement schedule reference..." style="border-radius: 10px;"></textarea>
+                    <span asp-validation-for="Notes" class="text-danger small"></span>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-end gap-2 pt-3 border-top">
+                <a asp-action="Index" class="btn btn-light px-4" style="border-radius: 10px;">Cancel</a>
+                <button type="submit" class="btn text-white px-4 fw-semibold" style="background-color: #08663e; border-radius: 10px;">
+                    <i class="fa-solid fa-plus me-1"></i> Initialize Cycle
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script>
+        function autoAdjustDates() {
+            var m = parseInt(document.getElementById('cycleMonthSelect').value);
+            var y = parseInt(document.getElementById('cycleYearInput').value);
+            if (m && y) {
+                var firstDay = new Date(Date.UTC(y, m - 1, 1));
+                var lastDay = new Date(Date.UTC(y, m, 0));
+                document.getElementById('startDateInput').value = firstDay.toISOString().split('T')[0];
+                document.getElementById('endDateInput').value = lastDay.toISOString().split('T')[0];
+            }
+        }
+    </script>
+}

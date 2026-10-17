@@ -1,0 +1,496 @@
+@page
+@model RegisterModel
+@{
+    ViewData["Title"] = "Register Staff Account";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - PIA Payroll</title>
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --pia-green: #005A36;
+            --pia-green-dark: #003e25;
+            --pia-green-light: #087548;
+            --pia-gold: #D4AF37;
+            --pia-gold-dark: #B8860B;
+            --text-dark: #1e293b;
+            --text-muted: #64748b;
+            --border-color: #e2e8f0;
+            --bg-page: #f8fafc;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html, body {
+            height: 100%;
+            width: 100%;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: #ffffff;
+            overflow-x: hidden;
+        }
+
+        .auth-container-fullscreen {
+            width: 100vw;
+            min-height: 100vh;
+            display: flex;
+            position: relative;
+            background: #ffffff;
+        }
+
+        /* LEFT PANEL: PIA Plane Image & Branding (50% Full Screen) */
+        .auth-left {
+            flex: 1 1 50%;
+            width: 50%;
+            min-height: 100vh;
+            position: relative;
+            background: linear-gradient(145deg, rgba(0, 75, 45, 0.90) 0%, rgba(0, 35, 20, 0.94) 100%),
+                        url('/images/pia-bg.jpg') center/cover no-repeat;
+            padding: 60px 80px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            color: #ffffff;
+            overflow: hidden;
+        }
+
+        .auth-left::before {
+            content: '';
+            position: absolute;
+            bottom: -60px;
+            right: -60px;
+            width: 260px;
+            height: 260px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.04);
+            pointer-events: none;
+        }
+
+        .auth-left-top {
+            position: relative;
+            z-index: 2;
+        }
+
+        .brand-logo-card {
+            display: inline-block;
+            background: #ffffff;
+            padding: 12px 20px;
+            border-radius: 18px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+            margin-bottom: 20px;
+        }
+
+        .brand-logo-card img {
+            height: 60px;
+            width: auto;
+            object-fit: contain;
+            display: block;
+        }
+
+        .auth-left-content {
+            position: relative;
+            z-index: 2;
+            margin: auto 0;
+            max-width: 520px;
+        }
+
+        .auth-left-content h1 {
+            font-size: 38px;
+            font-weight: 800;
+            line-height: 1.2;
+            margin-bottom: 14px;
+            letter-spacing: -0.8px;
+        }
+
+        .accent-bar {
+            width: 60px;
+            height: 4.5px;
+            background: var(--pia-gold);
+            border-radius: 3px;
+            margin-bottom: 22px;
+        }
+
+        .auth-left-content p {
+            font-size: 15px;
+            line-height: 1.7;
+            color: rgba(255, 255, 255, 0.88);
+            margin-bottom: 32px;
+        }
+
+        .btn-know-more {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            padding: 12px 28px;
+            border-radius: 30px;
+            border: 1.5px solid rgba(255, 255, 255, 0.65);
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            backdrop-filter: blur(6px);
+        }
+
+        .btn-know-more:hover {
+            background: #ffffff;
+            color: var(--pia-green);
+            border-color: #ffffff;
+            transform: translateY(-2px);
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+        }
+
+        .auth-left-footer {
+            position: relative;
+            z-index: 2;
+            font-size: 13px;
+            color: rgba(255, 255, 255, 0.65);
+        }
+
+        /* DECORATIVE CUTOUT CIRCLE ON 50% DIVIDER */
+        .split-circle-cutout {
+            position: absolute;
+            left: 50%;
+            bottom: 70px;
+            transform: translateX(-50%);
+            width: 72px;
+            height: 72px;
+            background: #ffffff;
+            border-radius: 50%;
+            z-index: 10;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--pia-green);
+            font-size: 24px;
+            border: 4px solid #f1f5f9;
+        }
+
+        /* RIGHT PANEL: Form (50% Full Screen) */
+        .auth-right {
+            flex: 1 1 50%;
+            width: 50%;
+            min-height: 100vh;
+            padding: 60px 80px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            background: #ffffff;
+            position: relative;
+            overflow-y: auto;
+        }
+
+        .form-inner-wrapper {
+            width: 100%;
+            max-width: 440px;
+            margin: 0 auto;
+        }
+
+        .auth-header {
+            margin-bottom: 26px;
+        }
+
+        .auth-header h2 {
+            font-size: 32px;
+            font-weight: 800;
+            color: var(--text-dark);
+            margin-bottom: 6px;
+            letter-spacing: -0.6px;
+        }
+
+        .header-dash {
+            width: 40px;
+            height: 4.5px;
+            background: var(--pia-green);
+            border-radius: 3px;
+            margin-bottom: 12px;
+        }
+
+        .auth-header p {
+            font-size: 14px;
+            color: var(--text-muted);
+            margin: 0;
+        }
+
+        /* Input Styling */
+        .input-group-custom {
+            margin-bottom: 18px;
+        }
+
+        .input-label {
+            display: block;
+            font-size: 11.5px;
+            font-weight: 700;
+            color: var(--pia-green);
+            text-transform: uppercase;
+            letter-spacing: 0.6px;
+            margin-bottom: 6px;
+        }
+
+        .input-wrapper {
+            position: relative;
+            display: flex;
+            align-items: center;
+        }
+
+        .input-icon-left {
+            position: absolute;
+            left: 18px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--pia-green);
+            font-size: 16px;
+            pointer-events: none;
+            transition: color 0.2s ease;
+            z-index: 4;
+        }
+
+        .form-control-custom {
+            width: 100%;
+            height: 50px;
+            padding: 12px 48px 12px 48px;
+            border-radius: 30px;
+            border: 1.5px solid var(--border-color);
+            background-color: #f8fafc;
+            color: #0f172a;
+            font-size: 14.5px;
+            font-weight: 500;
+            outline: none;
+            transition: all 0.25s ease;
+        }
+
+        .form-control-custom::placeholder {
+            color: #94a3b8;
+            font-weight: 400;
+        }
+
+        .form-control-custom:focus {
+            background-color: #ffffff;
+            border-color: var(--pia-green);
+            box-shadow: 0 0 0 3.5px rgba(0, 90, 54, 0.15);
+        }
+
+        .input-wrapper:focus-within .input-icon-left {
+            color: var(--pia-gold-dark);
+        }
+
+        .password-toggle {
+            position: absolute;
+            right: 18px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--pia-green);
+            font-size: 16px;
+            cursor: pointer;
+            padding: 4px;
+            transition: all 0.2s ease;
+            z-index: 4;
+        }
+
+        .password-toggle:hover {
+            color: #000000;
+            transform: translateY(-50%) scale(1.15);
+        }
+
+        .btn-auth-submit {
+            width: 100%;
+            height: 52px;
+            margin-top: 10px;
+            border: none;
+            border-radius: 30px;
+            background: linear-gradient(135deg, var(--pia-green) 0%, var(--pia-green-dark) 100%);
+            color: #ffffff;
+            font-size: 16px;
+            font-weight: 700;
+            letter-spacing: 0.6px;
+            cursor: pointer;
+            box-shadow: 0 10px 24px rgba(0, 90, 54, 0.28);
+            transition: all 0.3s ease;
+        }
+
+        .btn-auth-submit:hover {
+            background: linear-gradient(135deg, var(--pia-green-light) 0%, var(--pia-green) 100%);
+            box-shadow: 0 12px 28px rgba(0, 90, 54, 0.38);
+            transform: translateY(-1.5px);
+        }
+
+        .auth-switch-link {
+            text-align: center;
+            margin-top: 22px;
+            font-size: 14px;
+            color: var(--text-muted);
+        }
+
+        .auth-switch-link a {
+            color: var(--pia-green);
+            font-weight: 700;
+            text-decoration: none;
+            margin-left: 4px;
+        }
+
+        .auth-switch-link a:hover {
+            color: var(--pia-gold-dark);
+            text-decoration: underline;
+        }
+
+        .alert-danger-custom {
+            background: #fef2f2;
+            border: 1px solid #fecaca;
+            color: #dc2626;
+            border-radius: 14px;
+            font-size: 13px;
+            padding: 12px 16px;
+            margin-bottom: 18px;
+        }
+
+        @@media (max-width: 991px) {
+            .auth-container-fullscreen {
+                flex-direction: column;
+            }
+
+            .auth-left {
+                width: 100%;
+                flex: none;
+                min-height: 340px;
+                padding: 40px 30px;
+            }
+
+            .split-circle-cutout {
+                display: none;
+            }
+
+            .auth-right {
+                width: 100%;
+                flex: 1;
+                min-height: auto;
+                padding: 40px 30px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="auth-container-fullscreen">
+        <!-- LEFT PANEL: Plane image + PIA Branding (50% Width Full Screen) -->
+        <div class="auth-left">
+            <div class="auth-left-top">
+                <div class="brand-logo-card">
+                    <img src="/images/pia-logo.png" alt="Pakistan International Airlines Logo">
+                </div>
+            </div>
+
+            <div class="auth-left-content">
+                <h1>Join PIA HRMS & Payroll</h1>
+                <div class="accent-bar"></div>
+                <p>
+                    Register your verified employee credentials to access digitized payroll, track medical & housing allowances, and manage loan applications.
+                </p>
+                <a href="https://www.piac.com.pk/" target="_blank" rel="noopener noreferrer" class="btn-know-more">
+                    <i class="fa-solid fa-plane-departure"></i>
+                    <span>Official Portal</span>
+                </a>
+            </div>
+
+            <div class="auth-left-footer">
+                &copy; @DateTime.Now.Year Pakistan International Airlines. All Rights Reserved.
+            </div>
+        </div>
+
+        <!-- Decorative Overlapping Cutout Circle -->
+        <div class="split-circle-cutout d-none d-lg-flex">
+            <i class="fa-solid fa-user-plus"></i>
+        </div>
+
+        <!-- RIGHT PANEL: Registration Form (50% Width Full Screen) -->
+        <div class="auth-right">
+            <div class="form-inner-wrapper">
+                <div class="auth-header">
+                    <h2>Create Account</h2>
+                    <div class="header-dash"></div>
+                    <p>Enter your details to create an authorized staff account</p>
+                </div>
+
+                <form id="registerForm" asp-route-returnUrl="@Model.ReturnUrl" method="post">
+                    <div asp-validation-summary="ModelOnly" class="alert alert-danger-custom" role="alert"></div>
+
+                    <!-- Official Email Field -->
+                    <div class="input-group-custom">
+                        <label asp-for="Input.Email" class="input-label">Official Corporate Email</label>
+                        <div class="input-wrapper">
+                            <i class="fa-solid fa-envelope input-icon-left"></i>
+                            <input asp-for="Input.Email" class="form-control-custom" placeholder="employee@piapayroll.local" autocomplete="username" />
+                        </div>
+                        <span asp-validation-for="Input.Email" class="text-danger small d-block mt-1" style="font-size: 11px;"></span>
+                    </div>
+
+                    <!-- Password Field -->
+                    <div class="input-group-custom">
+                        <label asp-for="Input.Password" class="input-label">Password</label>
+                        <div class="input-wrapper">
+                            <i class="fa-solid fa-lock input-icon-left"></i>
+                            <input asp-for="Input.Password" type="password" class="form-control-custom" id="regPassword" placeholder="Minimum 8 characters" autocomplete="new-password" />
+                            <i class="fa-regular fa-eye password-toggle" onclick="togglePass('regPassword', this)" title="Toggle visibility"></i>
+                        </div>
+                        <span asp-validation-for="Input.Password" class="text-danger small d-block mt-1" style="font-size: 11px;"></span>
+                    </div>
+
+                    <!-- Confirm Password Field -->
+                    <div class="input-group-custom">
+                        <label asp-for="Input.ConfirmPassword" class="input-label">Confirm Password</label>
+                        <div class="input-wrapper">
+                            <i class="fa-solid fa-shield-halved input-icon-left"></i>
+                            <input asp-for="Input.ConfirmPassword" type="password" class="form-control-custom" id="regConfirmPassword" placeholder="Re-enter password" autocomplete="new-password" />
+                            <i class="fa-regular fa-eye password-toggle" onclick="togglePass('regConfirmPassword', this)" title="Toggle visibility"></i>
+                        </div>
+                        <span asp-validation-for="Input.ConfirmPassword" class="text-danger small d-block mt-1" style="font-size: 11px;"></span>
+                    </div>
+
+                    <!-- Register Submit Button -->
+                    <button id="registerSubmit" type="submit" class="btn-auth-submit">
+                        REGISTER
+                    </button>
+
+                    <!-- Switch to Login -->
+                    <div class="auth-switch-link">
+                        <span>Already have an account?</span>
+                        <a asp-page="./Login" asp-route-returnUrl="@Model.ReturnUrl">Sign in here</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script>
+        function togglePass(inputId, icon) {
+            const input = document.getElementById(inputId);
+            if (input.type === 'password') {
+                input.type = 'text';
+                icon.classList.remove('fa-eye');
+                icon.classList.add('fa-eye-slash');
+            } else {
+                input.type = 'password';
+                icon.classList.remove('fa-eye-slash');
+                icon.classList.add('fa-eye');
+            }
+        }
+    </script>
+</body>
+</html>

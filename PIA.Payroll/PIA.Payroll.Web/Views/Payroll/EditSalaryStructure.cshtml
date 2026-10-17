@@ -1,0 +1,165 @@
+@model PIA.Payroll.Application.DTOs.SalaryStructureEditDto
+@{
+    ViewData["Title"] = $"Configure Salary - {Model.EmployeeName}";
+}
+
+<div class="mb-4">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb mb-1 small">
+            <li class="breadcrumb-item"><a asp-action="Index" class="text-decoration-none text-pia">Payroll</a></li>
+            <li class="breadcrumb-item"><a asp-action="SalaryStructures" class="text-decoration-none text-pia">Salary Structures</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Configure @Model.EmployeeCode</li>
+        </ol>
+    </nav>
+    <h1 class="h3 fw-bold text-dark mb-1">Configure Salary Structure</h1>
+    <p class="text-muted mb-0">Setting pay grades, allowances, and statutory retentions for <strong>@Model.EmployeeName</strong> (@Model.EmployeeCode)</p>
+</div>
+
+<div class="row g-4">
+    <div class="col-lg-8">
+        <div class="card shadow-sm border-0">
+            <div class="card-body p-4 p-md-5">
+                <form asp-action="EditSalaryStructure" method="post">
+                    <input type="hidden" asp-for="Id" />
+                    <input type="hidden" asp-for="EmployeeId" />
+                    <input type="hidden" asp-for="EmployeeCode" />
+                    <input type="hidden" asp-for="EmployeeName" />
+
+                    <div asp-validation-summary="ModelOnly" class="alert alert-danger py-2 small" role="alert"></div>
+
+                    <h5 class="fw-bold text-dark border-bottom pb-2 mb-3">1. Base Pay & Allowances (PKR)</h5>
+                    <div class="row g-3 mb-4">
+                        <div class="col-md-6">
+                            <label asp-for="BasicSalary" class="form-label fw-semibold small text-secondary"></label>
+                            <input asp-for="BasicSalary" type="number" step="1000" class="form-control salary-calc-input" id="basicSalaryInput" oninput="calculatePreview()" />
+                            <span asp-validation-for="BasicSalary" class="text-danger small"></span>
+                        </div>
+
+                        <div class="col-md-6">
+                            <label asp-for="HouseRentAllowance" class="form-label fw-semibold small text-secondary"></label>
+                            <input asp-for="HouseRentAllowance" type="number" step="500" class="form-control salary-calc-input" id="houseRentInput" oninput="calculatePreview()" />
+                            <span asp-validation-for="HouseRentAllowance" class="text-danger small"></span>
+                        </div>
+
+                        <div class="col-md-6">
+                            <label asp-for="MedicalAllowance" class="form-label fw-semibold small text-secondary"></label>
+                            <input asp-for="MedicalAllowance" type="number" step="500" class="form-control salary-calc-input" id="medicalInput" oninput="calculatePreview()" />
+                            <span asp-validation-for="MedicalAllowance" class="text-danger small"></span>
+                        </div>
+
+                        <div class="col-md-6">
+                            <label asp-for="SpecialAllowance" class="form-label fw-semibold small text-secondary"></label>
+                            <input asp-for="SpecialAllowance" type="number" step="500" class="form-control salary-calc-input" id="specialInput" oninput="calculatePreview()" />
+                            <span asp-validation-for="SpecialAllowance" class="text-danger small"></span>
+                        </div>
+                    </div>
+
+                    <h5 class="fw-bold text-dark border-bottom pb-2 mb-3">2. Statutory & Operational Deductions (PKR)</h5>
+                    <div class="row g-3 mb-4">
+                        <div class="col-md-4">
+                            <label asp-for="IncomeTaxDeduction" class="form-label fw-semibold small text-secondary"></label>
+                            <input asp-for="IncomeTaxDeduction" type="number" step="500" class="form-control salary-calc-input" id="taxInput" oninput="calculatePreview()" />
+                            <span asp-validation-for="IncomeTaxDeduction" class="text-danger small"></span>
+                        </div>
+
+                        <div class="col-md-4">
+                            <label asp-for="ProvidentFundDeduction" class="form-label fw-semibold small text-secondary"></label>
+                            <input asp-for="ProvidentFundDeduction" type="number" step="500" class="form-control salary-calc-input" id="pfInput" oninput="calculatePreview()" />
+                            <span asp-validation-for="ProvidentFundDeduction" class="text-danger small"></span>
+                        </div>
+
+                        <div class="col-md-4">
+                            <label asp-for="OtherDeductions" class="form-label fw-semibold small text-secondary"></label>
+                            <input asp-for="OtherDeductions" type="number" step="500" class="form-control salary-calc-input" id="otherInput" oninput="calculatePreview()" />
+                            <span asp-validation-for="OtherDeductions" class="text-danger small"></span>
+                        </div>
+                    </div>
+
+                    <h5 class="fw-bold text-dark border-bottom pb-2 mb-3">3. Activation & Date</h5>
+                    <div class="row g-3 mb-4">
+                        <div class="col-md-6">
+                            <label asp-for="EffectiveDate" class="form-label fw-semibold small text-secondary"></label>
+                            <input asp-for="EffectiveDate" type="date" class="form-control" />
+                            <span asp-validation-for="EffectiveDate" class="text-danger small"></span>
+                        </div>
+
+                        <div class="col-md-6 d-flex align-items-center pt-4">
+                            <div class="form-check">
+                                <input asp-for="IsActive" class="form-check-input" id="isActiveCheck" />
+                                <label asp-for="IsActive" class="form-check-label fw-semibold text-dark" for="isActiveCheck">
+                                    Set as Active Structure
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="d-flex justify-content-end gap-2 pt-3 border-top">
+                        <a asp-action="SalaryStructures" class="btn btn-outline-secondary px-4">Cancel</a>
+                        <button type="submit" class="btn btn-pia-primary px-5 fw-semibold shadow-sm">Save Structure</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Live Calculation Preview Card -->
+    <div class="col-lg-4">
+        <div class="card shadow-sm border-0 sticky-top" style="top: 20px;">
+            <div class="card-header bg-white border-bottom py-3">
+                <h6 class="card-title fw-bold text-dark mb-0">Live Calculations Preview</h6>
+            </div>
+            <div class="card-body p-4">
+                <div class="d-flex justify-content-between mb-2">
+                    <span class="text-muted small">Basic Pay:</span>
+                    <strong id="previewBasic" class="text-dark">PKR 0</strong>
+                </div>
+                <div class="d-flex justify-content-between mb-2">
+                    <span class="text-muted small">Total Allowances:</span>
+                    <strong id="previewAllowances" class="text-success">PKR 0</strong>
+                </div>
+                <hr />
+                <div class="d-flex justify-content-between mb-2">
+                    <span class="text-dark fw-bold">Gross Salary:</span>
+                    <strong id="previewGross" class="text-dark fs-6">PKR 0</strong>
+                </div>
+                <div class="d-flex justify-content-between mb-3">
+                    <span class="text-danger small">Total Deductions:</span>
+                    <strong id="previewDeductions" class="text-danger">PKR 0</strong>
+                </div>
+                <div class="p-3 bg-light rounded border text-center">
+                    <span class="text-uppercase small text-muted d-block fw-semibold" style="font-size: 0.75rem;">Estimated Net Payout</span>
+                    <div id="previewNet" class="h4 fw-bold text-pia mb-0 font-monospace">PKR 0</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script>
+        function calculatePreview() {
+            var basic = parseFloat(document.getElementById('basicSalaryInput').value) || 0;
+            var rent = parseFloat(document.getElementById('houseRentInput').value) || 0;
+            var med = parseFloat(document.getElementById('medicalInput').value) || 0;
+            var spec = parseFloat(document.getElementById('specialInput').value) || 0;
+
+            var tax = parseFloat(document.getElementById('taxInput').value) || 0;
+            var pf = parseFloat(document.getElementById('pfInput').value) || 0;
+            var other = parseFloat(document.getElementById('otherInput').value) || 0;
+
+            var allowances = rent + med + spec;
+            var gross = basic + allowances;
+            var deductions = tax + pf + other;
+            var net = gross - deductions;
+
+            document.getElementById('previewBasic').textContent = 'PKR ' + basic.toLocaleString();
+            document.getElementById('previewAllowances').textContent = 'PKR ' + allowances.toLocaleString();
+            document.getElementById('previewGross').textContent = 'PKR ' + gross.toLocaleString();
+            document.getElementById('previewDeductions').textContent = 'PKR ' + deductions.toLocaleString();
+            document.getElementById('previewNet').textContent = 'PKR ' + net.toLocaleString();
+        }
+
+        document.addEventListener('DOMContentLoaded', calculatePreview);
+    </script>
+}

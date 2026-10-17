@@ -1,0 +1,335 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\PIAPayroll.workingonthis - Copy\\PIAPayroll - Copy\\PIA.Payroll\\PIA.Payroll.Web\\PIA.Payroll.Web.csproj": {}
+  },
+  "projects": {
+    "C:\\PIAPayroll.workingonthis - Copy\\PIAPayroll - Copy\\PIA.Payroll\\PIA.Payroll.Application\\PIA.Payroll.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\PIAPayroll.workingonthis - Copy\\PIAPayroll - Copy\\PIA.Payroll\\PIA.Payroll.Application\\PIA.Payroll.Application.csproj",
+        "projectName": "PIA.Payroll.Application",
+        "projectPath": "C:\\PIAPayroll.workingonthis - Copy\\PIAPayroll - Copy\\PIA.Payroll\\PIA.Payroll.Application\\PIA.Payroll.Application.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "C:\\PIAPayroll.workingonthis - Copy\\PIAPayroll - Copy\\PIA.Payroll\\PIA.Payroll.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\PIAPayroll.workingonthis - Copy\\PIAPayroll - Copy\\PIA.Payroll\\PIA.Payroll.Domain\\PIA.Payroll.Domain.csproj": {
+                "projectPath": "C:\\PIAPayroll.workingonthis - Copy\\PIAPayroll - Copy\\PIA.Payroll\\PIA.Payroll.Domain\\PIA.Payroll.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.318/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\PIAPayroll.workingonthis - Copy\\PIAPayroll - Copy\\PIA.Payroll\\PIA.Payroll.Domain\\PIA.Payroll.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\PIAPayroll.workingonthis - Copy\\PIAPayroll - Copy\\PIA.Payroll\\PIA.Payroll.Domain\\PIA.Payroll.Domain.csproj",
+        "projectName": "PIA.Payroll.Domain",
+        "projectPath": "C:\\PIAPayroll.workingonthis - Copy\\PIAPayroll - Copy\\PIA.Payroll\\PIA.Payroll.Domain\\PIA.Payroll.Domain.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "C:\\PIAPayroll.workingonthis - Copy\\PIAPayroll - Copy\\PIA.Payroll\\PIA.Payroll.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.318/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\PIAPayroll.workingonthis - Copy\\PIAPayroll - Copy\\PIA.Payroll\\PIA.Payroll.Infrastructure\\PIA.Payroll.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\PIAPayroll.workingonthis - Copy\\PIAPayroll - Copy\\PIA.Payroll\\PIA.Payroll.Infrastructure\\PIA.Payroll.Infrastructure.csproj",
+        "projectName": "PIA.Payroll.Infrastructure",
+        "projectPath": "C:\\PIAPayroll.workingonthis - Copy\\PIAPayroll - Copy\\PIA.Payroll\\PIA.Payroll.Infrastructure\\PIA.Payroll.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "C:\\PIAPayroll.workingonthis - Copy\\PIAPayroll - Copy\\PIA.Payroll\\PIA.Payroll.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\PIAPayroll.workingonthis - Copy\\PIAPayroll - Copy\\PIA.Payroll\\PIA.Payroll.Application\\PIA.Payroll.Application.csproj": {
+                "projectPath": "C:\\PIAPayroll.workingonthis - Copy\\PIAPayroll - Copy\\PIA.Payroll\\PIA.Payroll.Application\\PIA.Payroll.Application.csproj"
+              },
+              "C:\\PIAPayroll.workingonthis - Copy\\PIAPayroll - Copy\\PIA.Payroll\\PIA.Payroll.Domain\\PIA.Payroll.Domain.csproj": {
+                "projectPath": "C:\\PIAPayroll.workingonthis - Copy\\PIAPayroll - Copy\\PIA.Payroll\\PIA.Payroll.Domain\\PIA.Payroll.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.318/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\PIAPayroll.workingonthis - Copy\\PIAPayroll - Copy\\PIA.Payroll\\PIA.Payroll.Web\\PIA.Payroll.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\PIAPayroll.workingonthis - Copy\\PIAPayroll - Copy\\PIA.Payroll\\PIA.Payroll.Web\\PIA.Payroll.Web.csproj",
+        "projectName": "PIA.Payroll.Web",
+        "projectPath": "C:\\PIAPayroll.workingonthis - Copy\\PIAPayroll - Copy\\PIA.Payroll\\PIA.Payroll.Web\\PIA.Payroll.Web.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "C:\\PIAPayroll.workingonthis - Copy\\PIAPayroll - Copy\\PIA.Payroll\\PIA.Payroll.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\PIAPayroll.workingonthis - Copy\\PIAPayroll - Copy\\PIA.Payroll\\PIA.Payroll.Application\\PIA.Payroll.Application.csproj": {
+                "projectPath": "C:\\PIAPayroll.workingonthis - Copy\\PIAPayroll - Copy\\PIA.Payroll\\PIA.Payroll.Application\\PIA.Payroll.Application.csproj"
+              },
+              "C:\\PIAPayroll.workingonthis - Copy\\PIAPayroll - Copy\\PIA.Payroll\\PIA.Payroll.Infrastructure\\PIA.Payroll.Infrastructure.csproj": {
+                "projectPath": "C:\\PIAPayroll.workingonthis - Copy\\PIAPayroll - Copy\\PIA.Payroll\\PIA.Payroll.Infrastructure\\PIA.Payroll.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.31, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.31, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[8.0.31, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.31, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[10.0.12, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.318/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

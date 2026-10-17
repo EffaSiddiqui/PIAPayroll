@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - PIA Payroll</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+<body class="auth-body">
+    <div class="auth-wrapper d-flex flex-column min-vh-100 justify-content-center align-items-center py-5">
+        <div class="auth-brand text-center mb-4">
+            <div class="pia-logo-badge mb-2">
+                <span class="pia-logo-text">PIA</span>
+            </div>
+            <h1 class="h4 mb-0 fw-bold pia-brand-title">Pakistan International Airlines</h1>
+            <p class="text-muted small pia-brand-subtitle">Enterprise Payroll & HRMS Portal</p>
+        </div>
+
+        <div class="auth-card-container">
+            <div class="card auth-card shadow-sm border-0">
+                <div class="card-body p-4 p-md-5">
+                    @RenderBody()
+                </div>
+            </div>
+        </div>
+
+        <div class="auth-footer text-center mt-4">
+            <p class="text-muted small mb-0">&copy; @DateTime.Now.Year Pakistan International Airlines. All Rights Reserved.</p>
+            <p class="text-muted small mb-0">Authorized Personnel Only &bull; Secure Encrypted Session</p>
+        </div>
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

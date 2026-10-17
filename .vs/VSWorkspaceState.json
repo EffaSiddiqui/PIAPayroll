@@ -1,0 +1,17 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\PIA.Payroll",
+    "\\PIA.Payroll\\PIA.Payroll.Web",
+    "\\PIA.Payroll\\PIA.Payroll.Web\\Areas",
+    "\\PIA.Payroll\\PIA.Payroll.Web\\Areas\\Identity",
+    "\\PIA.Payroll\\PIA.Payroll.Web\\Areas\\Identity\\Pages",
+    "\\PIA.Payroll\\PIA.Payroll.Web\\Areas\\Identity\\Pages\\Account",
+    "\\PIA.Payroll\\PIA.Payroll.Web\\Views",
+    "\\PIA.Payroll\\PIA.Payroll.Web\\Views\\Account",
+    "\\PIA.Payroll\\PIA.Payroll.Web\\wwwroot",
+    "\\PIA.Payroll\\PIA.Payroll.Web\\wwwroot\\images"
+  ],
+  "SelectedNode": "\\PIA.Payroll\\PIA.Payroll.Web\\Program.cs",
+  "PreviewInSolutionExplorer": false
+}

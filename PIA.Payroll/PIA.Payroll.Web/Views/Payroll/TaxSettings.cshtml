@@ -1,0 +1,86 @@
+﻿@{
+    ViewData["Title"] = "Tax & Provident Fund Slabs - PIA Payroll";
+}
+
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <div>
+        <h4 class="fw-bold m-0">FBR Statutory Income Tax & Fund Rules</h4>
+        <small class="text-muted">Federal Board of Revenue Income Tax Slabs & Provident Fund Deductions</small>
+    </div>
+    <a href="/Payroll" class="btn btn-light border px-3 py-2" style="border-radius: 10px;">
+        <i class="fa-solid fa-arrow-left me-1"></i> Back to Payroll
+    </a>
+</div>
+
+<div class="row g-4">
+    <!-- FBR Tax Slabs -->
+    <div class="col-lg-7">
+        <div class="card card-custom p-4 h-100">
+            <h5 class="fw-bold mb-3"><i class="fa-solid fa-building-columns text-success me-2"></i>FBR Annual Tax Slabs Configuration</h5>
+            <div class="table-responsive">
+                <table class="table table-bordered align-middle">
+                    <thead class="table-light">
+                        <tr class="small text-uppercase text-secondary">
+                            <th>Annual Income Bracket</th>
+                            <th>Base Tax</th>
+                            <th>Percentage Surcharge</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>PKR 0 &ndash; 600,000</td>
+                            <td>PKR 0</td>
+                            <td>0%</td>
+                        </tr>
+                        <tr>
+                            <td>PKR 600,001 &ndash; 1,200,000</td>
+                            <td>PKR 0</td>
+                            <td>2.5% of amount exceeding 600k</td>
+                        </tr>
+                        <tr>
+                            <td>PKR 1,200,001 &ndash; 2,400,000</td>
+                            <td>PKR 15,000</td>
+                            <td>12.5% of amount exceeding 1.2M</td>
+                        </tr>
+                        <tr>
+                            <td>PKR 2,400,001 &ndash; 3,600,000</td>
+                            <td>PKR 165,000</td>
+                            <td>22.5% of amount exceeding 2.4M</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- Provident Fund Rules -->
+    <div class="col-lg-5">
+        <div class="card card-custom p-4 h-100">
+            <h5 class="fw-bold mb-3"><i class="fa-solid fa-piggy-bank text-warning me-2"></i>PIA Staff Provident Fund Rules</h5>
+            <form>
+                <div class="mb-3">
+                    <label class="form-label fw-bold small text-secondary">Employee PF Contribution Rate</label>
+                    <div class="input-group">
+                        <input type="number" class="form-control" value="8.33" style="border-radius: 10px 0 0 10px;">
+                        <span class="input-group-text">% of Basic Pay</span>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label fw-bold small text-secondary">Employer Matching Contribution</label>
+                    <div class="input-group">
+                        <input type="number" class="form-control" value="8.33" style="border-radius: 10px 0 0 10px;">
+                        <span class="input-group-text">% Equal Match</span>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label fw-bold small text-secondary">EOBI Monthly Fixed Rate</label>
+                    <div class="input-group">
+                        <input type="number" class="form-control" value="270" style="border-radius: 10px 0 0 10px;">
+                        <span class="input-group-text">PKR / Month</span>
+                    </div>
+                </div>
+                <button type="button" class="btn btn-pia w-100 mt-2">Update Rule Configuration</button>
+            </form>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,57 @@
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Infrastructure\bin\Debug\net8.0\PIA.Payroll.Infrastructure.deps.json
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Infrastructure\bin\Debug\net8.0\PIA.Payroll.Infrastructure.runtimeconfig.json
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Infrastructure\bin\Debug\net8.0\PIA.Payroll.Infrastructure.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Infrastructure\bin\Debug\net8.0\PIA.Payroll.Infrastructure.pdb
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Infrastructure\bin\Debug\net8.0\PIA.Payroll.Application.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Infrastructure\bin\Debug\net8.0\PIA.Payroll.Domain.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Infrastructure\bin\Debug\net8.0\PIA.Payroll.Application.pdb
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Infrastructure\bin\Debug\net8.0\PIA.Payroll.Domain.pdb
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Infrastructure\obj\Debug\net8.0\PIA.Payroll.Infrastructure.csproj.AssemblyReference.cache
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Infrastructure\obj\Debug\net8.0\PIA.Payroll.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Infrastructure\obj\Debug\net8.0\PIA.Payroll.Infrastructure.AssemblyInfoInputs.cache
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Infrastructure\obj\Debug\net8.0\PIA.Payroll.Infrastructure.AssemblyInfo.cs
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Infrastructure\obj\Debug\net8.0\PIA.Payroll.Infrastructure.csproj.CoreCompileInputs.cache
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Infrastructure\obj\Debug\net8.0\PIA.Payr.F21C9DF8.Up2Date
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Infrastructure\obj\Debug\net8.0\PIA.Payroll.Infrastructure.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Infrastructure\obj\Debug\net8.0\refint\PIA.Payroll.Infrastructure.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Infrastructure\obj\Debug\net8.0\PIA.Payroll.Infrastructure.pdb
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Infrastructure\obj\Debug\net8.0\PIA.Payroll.Infrastructure.genruntimeconfig.cache
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Infrastructure\obj\Debug\net8.0\ref\PIA.Payroll.Infrastructure.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Infrastructure\bin\Debug\net8.0\PIA.Payroll.Infrastructure.deps.json
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Infrastructure\bin\Debug\net8.0\PIA.Payroll.Infrastructure.runtimeconfig.json
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Infrastructure\bin\Debug\net8.0\PIA.Payroll.Infrastructure.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Infrastructure\bin\Debug\net8.0\PIA.Payroll.Infrastructure.pdb
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Infrastructure\bin\Debug\net8.0\PIA.Payroll.Application.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Infrastructure\bin\Debug\net8.0\PIA.Payroll.Domain.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Infrastructure\bin\Debug\net8.0\PIA.Payroll.Application.pdb
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Infrastructure\bin\Debug\net8.0\PIA.Payroll.Domain.pdb
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Infrastructure\obj\Debug\net8.0\PIA.Payroll.Infrastructure.csproj.AssemblyReference.cache
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Infrastructure\obj\Debug\net8.0\PIA.Payroll.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Infrastructure\obj\Debug\net8.0\PIA.Payroll.Infrastructure.AssemblyInfoInputs.cache
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Infrastructure\obj\Debug\net8.0\PIA.Payroll.Infrastructure.AssemblyInfo.cs
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Infrastructure\obj\Debug\net8.0\PIA.Payroll.Infrastructure.csproj.CoreCompileInputs.cache
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Infrastructure\obj\Debug\net8.0\PIA.Payr.F21C9DF8.Up2Date
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Infrastructure\obj\Debug\net8.0\PIA.Payroll.Infrastructure.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Infrastructure\obj\Debug\net8.0\refint\PIA.Payroll.Infrastructure.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Infrastructure\obj\Debug\net8.0\PIA.Payroll.Infrastructure.pdb
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Infrastructure\obj\Debug\net8.0\PIA.Payroll.Infrastructure.genruntimeconfig.cache
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Infrastructure\obj\Debug\net8.0\ref\PIA.Payroll.Infrastructure.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Infrastructure\bin\Debug\net8.0\PIA.Payroll.Infrastructure.deps.json
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Infrastructure\bin\Debug\net8.0\PIA.Payroll.Infrastructure.runtimeconfig.json
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Infrastructure\bin\Debug\net8.0\PIA.Payroll.Infrastructure.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Infrastructure\bin\Debug\net8.0\PIA.Payroll.Infrastructure.pdb
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Infrastructure\bin\Debug\net8.0\PIA.Payroll.Application.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Infrastructure\bin\Debug\net8.0\PIA.Payroll.Domain.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Infrastructure\bin\Debug\net8.0\PIA.Payroll.Application.pdb
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Infrastructure\bin\Debug\net8.0\PIA.Payroll.Domain.pdb
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Infrastructure\obj\Debug\net8.0\PIA.Payroll.Infrastructure.csproj.AssemblyReference.cache
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Infrastructure\obj\Debug\net8.0\PIA.Payroll.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Infrastructure\obj\Debug\net8.0\PIA.Payroll.Infrastructure.AssemblyInfoInputs.cache
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Infrastructure\obj\Debug\net8.0\PIA.Payroll.Infrastructure.AssemblyInfo.cs
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Infrastructure\obj\Debug\net8.0\PIA.Payroll.Infrastructure.csproj.CoreCompileInputs.cache
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Infrastructure\obj\Debug\net8.0\PIA.Payr.F21C9DF8.Up2Date
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Infrastructure\obj\Debug\net8.0\PIA.Payroll.Infrastructure.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Infrastructure\obj\Debug\net8.0\refint\PIA.Payroll.Infrastructure.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Infrastructure\obj\Debug\net8.0\PIA.Payroll.Infrastructure.pdb
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Infrastructure\obj\Debug\net8.0\PIA.Payroll.Infrastructure.genruntimeconfig.cache
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Infrastructure\obj\Debug\net8.0\ref\PIA.Payroll.Infrastructure.dll

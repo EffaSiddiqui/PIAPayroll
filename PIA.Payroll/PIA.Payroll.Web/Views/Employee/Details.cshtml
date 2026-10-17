@@ -1,0 +1,158 @@
+@model PIA.Payroll.Application.DTOs.EmployeeDetailsDto
+@{
+    ViewData["Title"] = $"Employee Profile - {Model.FullName}";
+    var isHrOrAdmin = User.IsInRole("Admin") || User.IsInRole("HR");
+}
+
+<div class="mb-4">
+    <div class="d-flex flex-wrap justify-content-between align-items-center gap-3">
+        <div>
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb mb-1 small">
+                    <li class="breadcrumb-item"><a asp-action="Index" class="text-decoration-none text-pia">Employees</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">@Model.EmployeeCode</li>
+                </ol>
+            </nav>
+            <div class="d-flex align-items-center gap-3">
+                <h1 class="h3 fw-bold text-dark mb-0">@Model.FullName</h1>
+                @if (Model.IsActive)
+                {
+                    <span class="badge bg-success px-3 py-2">Active Status</span>
+                }
+                else
+                {
+                    <span class="badge bg-secondary px-3 py-2">Inactive Status</span>
+                }
+            </div>
+            <p class="text-muted mb-0 small">
+                @(Model.DesignationName ?? "General Staff") &bull; @(Model.DepartmentName ?? "Unassigned Department")
+            </p>
+        </div>
+
+        <div class="d-flex gap-2">
+            <a asp-action="Index" class="btn btn-outline-secondary">
+                &larr; Back to Directory
+            </a>
+
+            @if (isHrOrAdmin)
+            {
+                <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-primary">
+                    Edit Profile
+                </a>
+
+                <form asp-action="ToggleStatus" asp-route-id="@Model.Id" method="post" class="d-inline" onsubmit="return confirm('Confirm updating status for this employee?');">
+                    <input type="hidden" name="returnUrl" value="@Url.Action("Details", "Employee", new { id = Model.Id })" />
+                    @if (Model.IsActive)
+                    {
+                        <button type="submit" class="btn btn-outline-danger">
+                            Deactivate Account
+                        </button>
+                    }
+                    else
+                    {
+                        <button type="submit" class="btn btn-outline-success">
+                            Activate Account
+                        </button>
+                    }
+                </form>
+            }
+        </div>
+    </div>
+</div>
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success alert-dismissible fade show shadow-sm" role="alert">
+        <strong>Success:</strong> @TempData["SuccessMessage"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+
+<div class="row g-4">
+    <!-- Corporate / Employment Details -->
+    <div class="col-lg-6">
+        <div class="card shadow-sm border-0 h-100">
+            <div class="card-header bg-white border-bottom py-3">
+                <h5 class="card-title fw-bold text-dark mb-0">
+                    Corporate & Employment Particulars
+                </h5>
+            </div>
+            <div class="card-body p-4">
+                <dl class="row mb-0">
+                    <dt class="col-sm-4 text-muted small text-uppercase">Employee Code</dt>
+                    <dd class="col-sm-8 fw-bold text-pia font-monospace">@Model.EmployeeCode</dd>
+
+                    <dt class="col-sm-4 text-muted small text-uppercase">Official Email</dt>
+                    <dd class="col-sm-8"><a href="mailto:@Model.OfficialEmail" class="text-decoration-none">@Model.OfficialEmail</a></dd>
+
+                    <dt class="col-sm-4 text-muted small text-uppercase">Department</dt>
+                    <dd class="col-sm-8 fw-semibold text-dark">@(Model.DepartmentName ?? "Unassigned")</dd>
+
+                    <dt class="col-sm-4 text-muted small text-uppercase">Designation</dt>
+                    <dd class="col-sm-8 fw-semibold text-dark">@(Model.DesignationName ?? "Unassigned")</dd>
+
+                    <dt class="col-sm-4 text-muted small text-uppercase">Joining Date</dt>
+                    <dd class="col-sm-8">@Model.JoiningDate.ToString("dd MMMM yyyy")</dd>
+
+                    <dt class="col-sm-4 text-muted small text-uppercase">Employment Status</dt>
+                    <dd class="col-sm-8 mb-0">
+                        @if (Model.IsActive)
+                        {
+                            <span class="badge bg-success-subtle text-success border border-success-subtle">Active In-Service</span>
+                        }
+                        else
+                        {
+                            <span class="badge bg-secondary-subtle text-secondary border border-secondary-subtle">Inactive / Suspended</span>
+                        }
+                    </dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+
+    <!-- Personal Information -->
+    <div class="col-lg-6">
+        <div class="card shadow-sm border-0 h-100">
+            <div class="card-header bg-white border-bottom py-3">
+                <h5 class="card-title fw-bold text-dark mb-0">
+                    Personal Information & Identification
+                </h5>
+            </div>
+            <div class="card-body p-4">
+                <dl class="row mb-0">
+                    <dt class="col-sm-4 text-muted small text-uppercase">Full Legal Name</dt>
+                    <dd class="col-sm-8 fw-semibold text-dark">@Model.FullName</dd>
+
+                    <dt class="col-sm-4 text-muted small text-uppercase">Father's Name</dt>
+                    <dd class="col-sm-8">@Model.FatherName</dd>
+
+                    <dt class="col-sm-4 text-muted small text-uppercase">National CNIC</dt>
+                    <dd class="col-sm-8 font-monospace fw-bold text-dark">@Model.CNIC</dd>
+
+                    <dt class="col-sm-4 text-muted small text-uppercase">Date of Birth</dt>
+                    <dd class="col-sm-8">
+                        @Model.DateOfBirth.ToString("dd MMMM yyyy")
+                    </dd>
+
+                    <dt class="col-sm-4 text-muted small text-uppercase">Gender</dt>
+                    <dd class="col-sm-8">@Model.Gender</dd>
+
+                    <dt class="col-sm-4 text-muted small text-uppercase">Location</dt>
+                    <dd class="col-sm-8 fw-semibold text-dark">@(string.IsNullOrWhiteSpace(Model.Location) ? "-" : Model.Location)</dd>
+
+                    <dt class="col-sm-4 text-muted small text-uppercase">Extension</dt>
+                    <dd class="col-sm-8">@(string.IsNullOrWhiteSpace(Model.Extension) ? "-" : Model.Extension)</dd>
+
+                    <dt class="col-sm-4 text-muted small text-uppercase">Cell Phone</dt>
+                    <dd class="col-sm-8">@(string.IsNullOrWhiteSpace(Model.CellPhoneNumber) ? "-" : Model.CellPhoneNumber)</dd>
+
+                    <dt class="col-sm-4 text-muted small text-uppercase">Contact Phone</dt>
+                    <dd class="col-sm-8">@(string.IsNullOrWhiteSpace(Model.PhoneNumber) ? "-" : Model.PhoneNumber)</dd>
+
+                    <dt class="col-sm-4 text-muted small text-uppercase">Personal Email</dt>
+                    <dd class="col-sm-8 mb-0">@(string.IsNullOrWhiteSpace(Model.PersonalEmail) ? "-" : Model.PersonalEmail)</dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+</div>

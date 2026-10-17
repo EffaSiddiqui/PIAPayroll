@@ -1,0 +1,226 @@
+@{
+    ViewData["Title"] = "Executive Dashboard";
+}
+
+@if (User.IsInRole("Admin") || User.IsInRole("HR"))
+{
+    <!-- ── KPI TILES ──────────────────────────────────────── -->
+    <div class="row g-3 mb-4">
+        <div class="col-md-3">
+            <div class="kpi-tile" style="border-top: 3.5px solid var(--pia-green);">
+                <div class="kpi-icon" style="background: rgba(0, 90, 54, 0.1); color: var(--pia-green);">
+                    <i class="fa-solid fa-users"></i>
+                </div>
+                <div class="kpi-label">Total Employees</div>
+                <div class="kpi-value" style="color: var(--pia-green);">1,248</div>
+                <div class="kpi-sub">
+                    <i class="fa-solid fa-circle text-success me-1" style="font-size:7px;"></i> Active cadre in service
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="kpi-tile" style="border-top: 3.5px solid var(--pia-gold);">
+                <div class="kpi-icon" style="background: rgba(212, 175, 55, 0.15); color: var(--pia-gold-dark);">
+                    <i class="fa-solid fa-money-bills"></i>
+                </div>
+                <div class="kpi-label">Monthly Payroll</div>
+                <div class="kpi-value" style="color: var(--pia-gold-dark);">PKR 85.4M</div>
+                <div class="kpi-sub">
+                    <i class="fa-solid fa-calendar-check me-1 text-gold" style="color:var(--pia-gold);font-size:11px;"></i> Current cycle
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="kpi-tile" style="border-top: 3.5px solid var(--pia-green-light);">
+                <div class="kpi-icon" style="background: rgba(8, 117, 72, 0.1); color: var(--pia-green-light);">
+                    <i class="fa-solid fa-building-columns"></i>
+                </div>
+                <div class="kpi-label">FBR Tax Deducted</div>
+                <div class="kpi-value" style="color: var(--pia-green-light);">PKR 12.1M</div>
+                <div class="kpi-sub">
+                    <i class="fa-solid fa-check-circle me-1" style="color:#16a34a;font-size:11px;"></i> Automated slabs applied
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="kpi-tile" style="border-top: 3.5px solid #dc2626;">
+                <div class="kpi-icon" style="background:rgba(220,38,38,0.08); color:#dc2626;">
+                    <i class="fa-solid fa-clock-rotate-left"></i>
+                </div>
+                <div class="kpi-label">Pending Approvals</div>
+                <div class="kpi-value" style="color:#dc2626;">02</div>
+                <div class="kpi-sub">
+                    <i class="fa-solid fa-triangle-exclamation me-1" style="color:#dc2626;font-size:11px;"></i> Awaiting admin action
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ── CHARTS ────────────────────────────────────────── -->
+    <div class="row g-3">
+        <div class="col-lg-8">
+            <div class="card-panel gold-top" style="border-top: 3.5px solid var(--pia-green);">
+                <div class="card-panel-header">
+                    <h5 class="card-panel-title" style="font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 700;">
+                        <i class="fa-solid fa-chart-line me-2" style="color:var(--pia-green);"></i>Payroll Expense Trend
+                    </h5>
+                    <span class="status-badge pending" style="background: rgba(0, 90, 54, 0.1); color: var(--pia-green); border: 1px solid rgba(0, 90, 54, 0.2); font-weight: 600;">PKR in Millions</span>
+                </div>
+                <div class="card-panel-body">
+                    <canvas id="payrollChart" height="120"></canvas>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="card-panel gold-top h-100" style="border-top: 3.5px solid var(--pia-gold);">
+                <div class="card-panel-header">
+                    <h5 class="card-panel-title" style="font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 700;">
+                        <i class="fa-solid fa-chart-pie me-2" style="color:var(--pia-gold-dark);"></i>Dept. Expense Split
+                    </h5>
+                </div>
+                <div class="card-panel-body">
+                    <canvas id="deptChart" height="220"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+
+@section Scripts {
+    <script>
+        const chartDefaults = {
+            font: { family: "'Plus Jakarta Sans', sans-serif", size: 12 },
+        };
+
+        const isDark = () => document.documentElement.getAttribute('data-theme') === 'dark';
+        const gridColor = () => isDark() ? 'rgba(255,255,255,0.06)' : 'rgba(0,0,0,0.06)';
+        const tickColor = () => isDark() ? '#94A3B8' : '#64748B';
+
+        // Line Chart (Matching PIA Green & Gold Theme)
+        const lineChart = new Chart(document.getElementById('payrollChart').getContext('2d'), {
+            type: 'line',
+            data: {
+                labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun'],
+                datasets: [{
+                    label: 'Total Expenses (M PKR)',
+                    data: [78, 81, 80, 83, 82, 85.4],
+                    borderColor: '#005A36',
+                    backgroundColor: 'rgba(0, 90, 54, 0.08)',
+                    tension: 0.4,
+                    fill: true,
+                    pointBackgroundColor: '#D4AF37',
+                    pointBorderColor: '#005A36',
+                    pointBorderWidth: 2,
+                    pointRadius: 5,
+                    pointHoverRadius: 7,
+                    borderWidth: 3
+                }]
+            },
+            options: {
+                responsive: true,
+                plugins: { legend: { display: false } },
+                scales: {
+                    x: { grid: { color: gridColor() }, ticks: { color: tickColor(), font: { size: 11, family: "'Plus Jakarta Sans', sans-serif" } } },
+                    y: { grid: { color: gridColor() }, ticks: { color: tickColor(), font: { size: 11, family: "'Plus Jakarta Sans', sans-serif" } } }
+                }
+            }
+        });
+
+        // Doughnut Chart (PIA Theme Palette)
+        const deptChart = new Chart(document.getElementById('deptChart').getContext('2d'), {
+            type: 'doughnut',
+            data: {
+                labels: ['Flight Ops', 'Engineering', 'Ground Handling', 'Admin'],
+                datasets: [{
+                    data: [40, 30, 18, 12],
+                    backgroundColor: ['#005A36', '#D4AF37', '#087548', '#B8860B'],
+                    borderWidth: 2,
+                    borderColor: isDark() ? '#00331E' : '#fff'
+                }]
+            },
+            options: {
+                responsive: true,
+                plugins: {
+                    legend: {
+                        position: 'bottom',
+                        labels: {
+                            color: tickColor(),
+                            boxWidth: 12,
+                            font: { size: 11, family: "'Plus Jakarta Sans', sans-serif" },
+                            padding: 12
+                        }
+                    }
+                },
+                cutout: '68%'
+            }
+        });
+    </script>
+}
+}
+else
+{
+    <!-- ── EMPLOYEE WELCOME HERO (Matching Login PIA Plane Theme) ────────────────────────────────── -->
+    <div class="row g-3 mb-4">
+        <div class="col-12">
+            <div class="card-panel" style="background: linear-gradient(135deg, rgba(0, 90, 54, 0.95) 0%, rgba(0, 45, 27, 0.98) 100%), url('/images/pia-bg.jpg') center/cover no-repeat; border: none; border-radius: 24px; box-shadow: 0 14px 40px rgba(0, 40, 20, 0.22); overflow: hidden;">
+                <div class="card-panel-body" style="padding: 44px 40px;">
+                    <div class="d-flex align-items-center gap-4 flex-wrap">
+                        <div style="width: 76px; height: 76px; border-radius: 50%; background: rgba(212, 175, 55, 0.2); border: 2.5px solid var(--pia-gold); display:flex; align-items:center; justify-content:center; font-family:'Plus Jakarta Sans',sans-serif; font-size:30px; font-weight:800; color: var(--pia-gold); box-shadow: 0 8px 24px rgba(0,0,0,0.25);">
+                            @(User.Identity?.Name?.Length > 0 ? User.Identity.Name[0].ToString().ToUpper() : "E")
+                        </div>
+                        <div>
+                            <div class="badge px-3 py-1 mb-2 rounded-pill" style="background: rgba(212, 175, 55, 0.25); color: #fff; font-size: 11px; letter-spacing: 0.6px; border: 1px solid var(--pia-gold);">
+                                <i class="fa-solid fa-plane-departure me-1"></i> PIA STAFF PORTAL
+                            </div>
+                            <h2 style="font-family:'Plus Jakarta Sans',sans-serif; font-weight: 800; color:#fff; margin:0 0 6px; font-size:26px; letter-spacing: -0.5px;">
+                                Welcome back, @User.Identity?.Name
+                            </h2>
+                            <p style="color:rgba(255,255,255,0.85); margin:0; font-size:14px; max-width: 580px; line-height: 1.5;">
+                                Access your personal profile, monthly payslips, medical & housing allowances, and submit loan requests directly from your dashboard.
+                            </p>
+                        </div>
+                        <div class="ms-auto d-flex gap-2">
+                            <a href="/Employee/MyProfile" class="btn" style="background: linear-gradient(135deg, var(--pia-gold) 0%, var(--pia-gold-dark) 100%); color: #002b1a; text-decoration:none; padding: 12px 24px; border-radius:30px; font-size:13.5px; font-weight:700; box-shadow: 0 6px 18px rgba(212, 175, 55, 0.35); transition: all 0.25s;">
+                                <i class="fa-solid fa-user me-2"></i>My Profile
+                            </a>
+                            <a href="/Payroll/MyPayslips" class="btn" style="text-decoration:none; padding: 12px 24px; border-radius:30px; font-size:13.5px; font-weight:600; border: 1.5px solid rgba(255,255,255,0.6); color:#fff; backdrop-filter: blur(4px); transition: all 0.25s;">
+                                <i class="fa-solid fa-receipt me-2"></i>My Payslips
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Quick Stats for Employee -->
+        <div class="col-md-4">
+            <div class="kpi-tile" style="border-top: 3.5px solid var(--pia-green);">
+                <div class="kpi-icon" style="background: rgba(0, 90, 54, 0.1); color: var(--pia-green);">
+                    <i class="fa-solid fa-receipt"></i>
+                </div>
+                <div class="kpi-label">Payslips Available</div>
+                <div class="kpi-value" style="color: var(--pia-green); font-family: 'Plus Jakarta Sans', sans-serif;">12</div>
+                <div class="kpi-sub">Past 12 months digitized</div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="kpi-tile" style="border-top: 3.5px solid var(--pia-gold);">
+                <div class="kpi-icon" style="background: rgba(212, 175, 55, 0.15); color: var(--pia-gold-dark);">
+                    <i class="fa-solid fa-hand-holding-dollar"></i>
+                </div>
+                <div class="kpi-label">Loan Status</div>
+                <div class="kpi-value" style="font-size:24px; color: var(--pia-gold-dark); font-family: 'Plus Jakarta Sans', sans-serif;">Active</div>
+                <div class="kpi-sub"><a href="/Loan/MyLoans" style="color:var(--pia-gold-dark); font-weight:700; text-decoration:none;">View loan requests →</a></div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="kpi-tile" style="border-top: 3.5px solid var(--pia-green-light);">
+                <div class="kpi-icon" style="background: rgba(8, 117, 72, 0.1); color: var(--pia-green-light);">
+                    <i class="fa-solid fa-user-check"></i>
+                </div>
+                <div class="kpi-label">Profile Status</div>
+                <div class="kpi-value" style="font-size:24px; color: var(--pia-green-light); font-family: 'Plus Jakarta Sans', sans-serif;">Verified</div>
+                <div class="kpi-sub"><a href="/Employee/MyProfile" style="color:var(--pia-green); font-weight:700; text-decoration:none;">View full profile →</a></div>
+            </div>
+        </div>
+    </div>
+}

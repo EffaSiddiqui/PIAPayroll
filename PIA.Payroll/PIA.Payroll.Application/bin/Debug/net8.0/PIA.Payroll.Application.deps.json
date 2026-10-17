@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "PIA.Payroll.Application/1.0.0": {
+        "dependencies": {
+          "PIA.Payroll.Domain": "1.0.0"
+        },
+        "runtime": {
+          "PIA.Payroll.Application.dll": {}
+        }
+      },
+      "PIA.Payroll.Domain/1.0.0": {
+        "runtime": {
+          "PIA.Payroll.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PIA.Payroll.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PIA.Payroll.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

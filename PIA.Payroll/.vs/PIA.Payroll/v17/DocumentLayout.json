@@ -1,0 +1,548 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\PIAPayroll - Copy\\PIA.Payroll\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{40610456-5D9F-41D1-8AAB-FB93DC90352F}|PIA.Payroll.Web\\PIA.Payroll.Web.csproj|c:\\piapayroll - copy\\pia.payroll\\pia.payroll.web\\views\\payroll\\mypayslips.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{40610456-5D9F-41D1-8AAB-FB93DC90352F}|PIA.Payroll.Web\\PIA.Payroll.Web.csproj|solutionrelative:pia.payroll.web\\views\\payroll\\mypayslips.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40610456-5D9F-41D1-8AAB-FB93DC90352F}|PIA.Payroll.Web\\PIA.Payroll.Web.csproj|c:\\piapayroll - copy\\pia.payroll\\pia.payroll.web\\controllers\\payrollcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40610456-5D9F-41D1-8AAB-FB93DC90352F}|PIA.Payroll.Web\\PIA.Payroll.Web.csproj|solutionrelative:pia.payroll.web\\controllers\\payrollcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40610456-5D9F-41D1-8AAB-FB93DC90352F}|PIA.Payroll.Web\\PIA.Payroll.Web.csproj|c:\\piapayroll - copy\\pia.payroll\\pia.payroll.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{40610456-5D9F-41D1-8AAB-FB93DC90352F}|PIA.Payroll.Web\\PIA.Payroll.Web.csproj|solutionrelative:pia.payroll.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40610456-5D9F-41D1-8AAB-FB93DC90352F}|PIA.Payroll.Web\\PIA.Payroll.Web.csproj|c:\\piapayroll - copy\\pia.payroll\\pia.payroll.web\\views\\payroll\\disbursement.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{40610456-5D9F-41D1-8AAB-FB93DC90352F}|PIA.Payroll.Web\\PIA.Payroll.Web.csproj|solutionrelative:pia.payroll.web\\views\\payroll\\disbursement.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40610456-5D9F-41D1-8AAB-FB93DC90352F}|PIA.Payroll.Web\\PIA.Payroll.Web.csproj|c:\\piapayroll - copy\\pia.payroll\\pia.payroll.web\\views\\payroll\\taxsettings.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{40610456-5D9F-41D1-8AAB-FB93DC90352F}|PIA.Payroll.Web\\PIA.Payroll.Web.csproj|solutionrelative:pia.payroll.web\\views\\payroll\\taxsettings.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40610456-5D9F-41D1-8AAB-FB93DC90352F}|PIA.Payroll.Web\\PIA.Payroll.Web.csproj|c:\\piapayroll - copy\\pia.payroll\\pia.payroll.web\\views\\payroll\\flightallowances.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{40610456-5D9F-41D1-8AAB-FB93DC90352F}|PIA.Payroll.Web\\PIA.Payroll.Web.csproj|solutionrelative:pia.payroll.web\\views\\payroll\\flightallowances.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40610456-5D9F-41D1-8AAB-FB93DC90352F}|PIA.Payroll.Web\\PIA.Payroll.Web.csproj|c:\\piapayroll - copy\\pia.payroll\\pia.payroll.web\\views\\payroll\\createperiod.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{40610456-5D9F-41D1-8AAB-FB93DC90352F}|PIA.Payroll.Web\\PIA.Payroll.Web.csproj|solutionrelative:pia.payroll.web\\views\\payroll\\createperiod.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40610456-5D9F-41D1-8AAB-FB93DC90352F}|PIA.Payroll.Web\\PIA.Payroll.Web.csproj|c:\\piapayroll - copy\\pia.payroll\\pia.payroll.web\\views\\payroll\\salarystructures.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{40610456-5D9F-41D1-8AAB-FB93DC90352F}|PIA.Payroll.Web\\PIA.Payroll.Web.csproj|solutionrelative:pia.payroll.web\\views\\payroll\\salarystructures.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40610456-5D9F-41D1-8AAB-FB93DC90352F}|PIA.Payroll.Web\\PIA.Payroll.Web.csproj|c:\\piapayroll - copy\\pia.payroll\\pia.payroll.web\\views\\payroll\\payslip.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{40610456-5D9F-41D1-8AAB-FB93DC90352F}|PIA.Payroll.Web\\PIA.Payroll.Web.csproj|solutionrelative:pia.payroll.web\\views\\payroll\\payslip.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40610456-5D9F-41D1-8AAB-FB93DC90352F}|PIA.Payroll.Web\\PIA.Payroll.Web.csproj|c:\\piapayroll - copy\\pia.payroll\\pia.payroll.web\\views\\payroll\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{40610456-5D9F-41D1-8AAB-FB93DC90352F}|PIA.Payroll.Web\\PIA.Payroll.Web.csproj|solutionrelative:pia.payroll.web\\views\\payroll\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40610456-5D9F-41D1-8AAB-FB93DC90352F}|PIA.Payroll.Web\\PIA.Payroll.Web.csproj|c:\\piapayroll - copy\\pia.payroll\\pia.payroll.web\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{40610456-5D9F-41D1-8AAB-FB93DC90352F}|PIA.Payroll.Web\\PIA.Payroll.Web.csproj|solutionrelative:pia.payroll.web\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40610456-5D9F-41D1-8AAB-FB93DC90352F}|PIA.Payroll.Web\\PIA.Payroll.Web.csproj|c:\\piapayroll - copy\\pia.payroll\\pia.payroll.web\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40610456-5D9F-41D1-8AAB-FB93DC90352F}|PIA.Payroll.Web\\PIA.Payroll.Web.csproj|solutionrelative:pia.payroll.web\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40610456-5D9F-41D1-8AAB-FB93DC90352F}|PIA.Payroll.Web\\PIA.Payroll.Web.csproj|c:\\piapayroll - copy\\pia.payroll\\pia.payroll.web\\views\\employee\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{40610456-5D9F-41D1-8AAB-FB93DC90352F}|PIA.Payroll.Web\\PIA.Payroll.Web.csproj|solutionrelative:pia.payroll.web\\views\\employee\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40610456-5D9F-41D1-8AAB-FB93DC90352F}|PIA.Payroll.Web\\PIA.Payroll.Web.csproj|c:\\piapayroll - copy\\pia.payroll\\pia.payroll.web\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{40610456-5D9F-41D1-8AAB-FB93DC90352F}|PIA.Payroll.Web\\PIA.Payroll.Web.csproj|solutionrelative:pia.payroll.web\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40610456-5D9F-41D1-8AAB-FB93DC90352F}|PIA.Payroll.Web\\PIA.Payroll.Web.csproj|c:\\piapayroll - copy\\pia.payroll\\pia.payroll.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40610456-5D9F-41D1-8AAB-FB93DC90352F}|PIA.Payroll.Web\\PIA.Payroll.Web.csproj|solutionrelative:pia.payroll.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40610456-5D9F-41D1-8AAB-FB93DC90352F}|PIA.Payroll.Web\\PIA.Payroll.Web.csproj|c:\\piapayroll - copy\\pia.payroll\\pia.payroll.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40610456-5D9F-41D1-8AAB-FB93DC90352F}|PIA.Payroll.Web\\PIA.Payroll.Web.csproj|solutionrelative:pia.payroll.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40610456-5D9F-41D1-8AAB-FB93DC90352F}|PIA.Payroll.Web\\PIA.Payroll.Web.csproj|c:\\piapayroll - copy\\pia.payroll\\pia.payroll.web\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{40610456-5D9F-41D1-8AAB-FB93DC90352F}|PIA.Payroll.Web\\PIA.Payroll.Web.csproj|solutionrelative:pia.payroll.web\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8B0C2B8-B2FE-4D45-8EE9-13BDC6E25BC0}|PIA.Payroll.Infrastructure\\PIA.Payroll.Infrastructure.csproj|c:\\piapayroll - copy\\pia.payroll\\pia.payroll.infrastructure\\migrations\\20260921090916_initialcreate.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8B0C2B8-B2FE-4D45-8EE9-13BDC6E25BC0}|PIA.Payroll.Infrastructure\\PIA.Payroll.Infrastructure.csproj|solutionrelative:pia.payroll.infrastructure\\migrations\\20260921090916_initialcreate.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08C397FE-B4F3-4338-8883-0E6C4CD96890}|PIA.Payroll.Domain\\PIA.Payroll.Domain.csproj|c:\\piapayroll - copy\\pia.payroll\\pia.payroll.domain\\entities\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08C397FE-B4F3-4338-8883-0E6C4CD96890}|PIA.Payroll.Domain\\PIA.Payroll.Domain.csproj|solutionrelative:pia.payroll.domain\\entities\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8B0C2B8-B2FE-4D45-8EE9-13BDC6E25BC0}|PIA.Payroll.Infrastructure\\PIA.Payroll.Infrastructure.csproj|c:\\piapayroll - copy\\pia.payroll\\pia.payroll.infrastructure\\identity\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8B0C2B8-B2FE-4D45-8EE9-13BDC6E25BC0}|PIA.Payroll.Infrastructure\\PIA.Payroll.Infrastructure.csproj|solutionrelative:pia.payroll.infrastructure\\identity\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8B0C2B8-B2FE-4D45-8EE9-13BDC6E25BC0}|PIA.Payroll.Infrastructure\\PIA.Payroll.Infrastructure.csproj|c:\\piapayroll - copy\\pia.payroll\\pia.payroll.infrastructure\\migrations\\20260921090916_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8B0C2B8-B2FE-4D45-8EE9-13BDC6E25BC0}|PIA.Payroll.Infrastructure\\PIA.Payroll.Infrastructure.csproj|solutionrelative:pia.payroll.infrastructure\\migrations\\20260921090916_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40610456-5D9F-41D1-8AAB-FB93DC90352F}|PIA.Payroll.Web\\PIA.Payroll.Web.csproj|c:\\piapayroll - copy\\pia.payroll\\pia.payroll.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{40610456-5D9F-41D1-8AAB-FB93DC90352F}|PIA.Payroll.Web\\PIA.Payroll.Web.csproj|solutionrelative:pia.payroll.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40610456-5D9F-41D1-8AAB-FB93DC90352F}|PIA.Payroll.Web\\PIA.Payroll.Web.csproj|c:\\piapayroll - copy\\pia.payroll\\pia.payroll.web\\pia.payroll.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{40610456-5D9F-41D1-8AAB-FB93DC90352F}|PIA.Payroll.Web\\PIA.Payroll.Web.csproj|solutionrelative:pia.payroll.web\\pia.payroll.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8B0C2B8-B2FE-4D45-8EE9-13BDC6E25BC0}|PIA.Payroll.Infrastructure\\PIA.Payroll.Infrastructure.csproj|c:\\piapayroll - copy\\pia.payroll\\pia.payroll.infrastructure\\data\\payrolldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8B0C2B8-B2FE-4D45-8EE9-13BDC6E25BC0}|PIA.Payroll.Infrastructure\\PIA.Payroll.Infrastructure.csproj|solutionrelative:pia.payroll.infrastructure\\data\\payrolldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08C397FE-B4F3-4338-8883-0E6C4CD96890}|PIA.Payroll.Domain\\PIA.Payroll.Domain.csproj|c:\\piapayroll - copy\\pia.payroll\\pia.payroll.domain\\entities\\designation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08C397FE-B4F3-4338-8883-0E6C4CD96890}|PIA.Payroll.Domain\\PIA.Payroll.Domain.csproj|solutionrelative:pia.payroll.domain\\entities\\designation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08C397FE-B4F3-4338-8883-0E6C4CD96890}|PIA.Payroll.Domain\\PIA.Payroll.Domain.csproj|c:\\piapayroll - copy\\pia.payroll\\pia.payroll.domain\\entities\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08C397FE-B4F3-4338-8883-0E6C4CD96890}|PIA.Payroll.Domain\\PIA.Payroll.Domain.csproj|solutionrelative:pia.payroll.domain\\entities\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08C397FE-B4F3-4338-8883-0E6C4CD96890}|PIA.Payroll.Domain\\PIA.Payroll.Domain.csproj|c:\\piapayroll - copy\\pia.payroll\\pia.payroll.domain\\pia.payroll.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{08C397FE-B4F3-4338-8883-0E6C4CD96890}|PIA.Payroll.Domain\\PIA.Payroll.Domain.csproj|solutionrelative:pia.payroll.domain\\pia.payroll.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8B0C2B8-B2FE-4D45-8EE9-13BDC6E25BC0}|PIA.Payroll.Infrastructure\\PIA.Payroll.Infrastructure.csproj|c:\\piapayroll - copy\\pia.payroll\\pia.payroll.infrastructure\\pia.payroll.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E8B0C2B8-B2FE-4D45-8EE9-13BDC6E25BC0}|PIA.Payroll.Infrastructure\\PIA.Payroll.Infrastructure.csproj|solutionrelative:pia.payroll.infrastructure\\pia.payroll.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08C397FE-B4F3-4338-8883-0E6C4CD96890}|PIA.Payroll.Domain\\PIA.Payroll.Domain.csproj|c:\\piapayroll - copy\\pia.payroll\\pia.payroll.domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08C397FE-B4F3-4338-8883-0E6C4CD96890}|PIA.Payroll.Domain\\PIA.Payroll.Domain.csproj|solutionrelative:pia.payroll.domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2ACD14A-D2EE-4D53-9DF3-D5C917D04CA1}|PIA.Payroll.Application\\PIA.Payroll.Application.csproj|c:\\piapayroll - copy\\pia.payroll\\pia.payroll.application\\pia.payroll.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D2ACD14A-D2EE-4D53-9DF3-D5C917D04CA1}|PIA.Payroll.Application\\PIA.Payroll.Application.csproj|solutionrelative:pia.payroll.application\\pia.payroll.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8B0C2B8-B2FE-4D45-8EE9-13BDC6E25BC0}|PIA.Payroll.Infrastructure\\PIA.Payroll.Infrastructure.csproj|c:\\piapayroll - copy\\pia.payroll\\pia.payroll.infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8B0C2B8-B2FE-4D45-8EE9-13BDC6E25BC0}|PIA.Payroll.Infrastructure\\PIA.Payroll.Infrastructure.csproj|solutionrelative:pia.payroll.infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2ACD14A-D2EE-4D53-9DF3-D5C917D04CA1}|PIA.Payroll.Application\\PIA.Payroll.Application.csproj|c:\\piapayroll - copy\\pia.payroll\\pia.payroll.application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2ACD14A-D2EE-4D53-9DF3-D5C917D04CA1}|PIA.Payroll.Application\\PIA.Payroll.Application.csproj|solutionrelative:pia.payroll.application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MyPayslips.cshtml",
+              "DocumentMoniker": "C:\\PIAPayroll - Copy\\PIA.Payroll\\PIA.Payroll.Web\\Views\\Payroll\\MyPayslips.cshtml",
+              "RelativeDocumentMoniker": "PIA.Payroll.Web\\Views\\Payroll\\MyPayslips.cshtml",
+              "ToolTip": "C:\\PIAPayroll - Copy\\PIA.Payroll\\PIA.Payroll.Web\\Views\\Payroll\\MyPayslips.cshtml",
+              "RelativeToolTip": "PIA.Payroll.Web\\Views\\Payroll\\MyPayslips.cshtml",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAwwHkAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-24T10:23:00.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PayrollController.cs",
+              "DocumentMoniker": "C:\\PIAPayroll - Copy\\PIA.Payroll\\PIA.Payroll.Web\\Controllers\\PayrollController.cs",
+              "RelativeDocumentMoniker": "PIA.Payroll.Web\\Controllers\\PayrollController.cs",
+              "ToolTip": "C:\\PIAPayroll - Copy\\PIA.Payroll\\PIA.Payroll.Web\\Controllers\\PayrollController.cs",
+              "RelativeToolTip": "PIA.Payroll.Web\\Controllers\\PayrollController.cs",
+              "ViewState": "AgIAAAQBAAAAAAAAAAAUwBoBAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-24T10:22:10.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\PIAPayroll - Copy\\PIA.Payroll\\PIA.Payroll.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "PIA.Payroll.Web\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\PIAPayroll - Copy\\PIA.Payroll\\PIA.Payroll.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "PIA.Payroll.Web\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAIsAAAAAAAAAAAAwwJkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-24T09:51:33.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Disbursement.cshtml",
+              "DocumentMoniker": "C:\\PIAPayroll - Copy\\PIA.Payroll\\PIA.Payroll.Web\\Views\\Payroll\\Disbursement.cshtml",
+              "RelativeDocumentMoniker": "PIA.Payroll.Web\\Views\\Payroll\\Disbursement.cshtml",
+              "ToolTip": "C:\\PIAPayroll - Copy\\PIA.Payroll\\PIA.Payroll.Web\\Views\\Payroll\\Disbursement.cshtml",
+              "RelativeToolTip": "PIA.Payroll.Web\\Views\\Payroll\\Disbursement.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAwwEAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-27T22:56:33.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TaxSettings.cshtml",
+              "DocumentMoniker": "C:\\PIAPayroll - Copy\\PIA.Payroll\\PIA.Payroll.Web\\Views\\Payroll\\TaxSettings.cshtml",
+              "RelativeDocumentMoniker": "PIA.Payroll.Web\\Views\\Payroll\\TaxSettings.cshtml",
+              "ToolTip": "C:\\PIAPayroll - Copy\\PIA.Payroll\\PIA.Payroll.Web\\Views\\Payroll\\TaxSettings.cshtml",
+              "RelativeToolTip": "PIA.Payroll.Web\\Views\\Payroll\\TaxSettings.cshtml",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAwwFIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-27T22:55:54.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FlightAllowances.cshtml",
+              "DocumentMoniker": "C:\\PIAPayroll - Copy\\PIA.Payroll\\PIA.Payroll.Web\\Views\\Payroll\\FlightAllowances.cshtml",
+              "RelativeDocumentMoniker": "PIA.Payroll.Web\\Views\\Payroll\\FlightAllowances.cshtml",
+              "ToolTip": "C:\\PIAPayroll - Copy\\PIA.Payroll\\PIA.Payroll.Web\\Views\\Payroll\\FlightAllowances.cshtml",
+              "RelativeToolTip": "PIA.Payroll.Web\\Views\\Payroll\\FlightAllowances.cshtml",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAwwFMAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-27T22:54:48.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CreatePeriod.cshtml",
+              "DocumentMoniker": "C:\\PIAPayroll - Copy\\PIA.Payroll\\PIA.Payroll.Web\\Views\\Payroll\\CreatePeriod.cshtml",
+              "RelativeDocumentMoniker": "PIA.Payroll.Web\\Views\\Payroll\\CreatePeriod.cshtml",
+              "ToolTip": "C:\\PIAPayroll - Copy\\PIA.Payroll\\PIA.Payroll.Web\\Views\\Payroll\\CreatePeriod.cshtml",
+              "RelativeToolTip": "PIA.Payroll.Web\\Views\\Payroll\\CreatePeriod.cshtml",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAwwFgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-27T22:36:48.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SalaryStructures.cshtml",
+              "DocumentMoniker": "C:\\PIAPayroll - Copy\\PIA.Payroll\\PIA.Payroll.Web\\Views\\Payroll\\SalaryStructures.cshtml",
+              "RelativeDocumentMoniker": "PIA.Payroll.Web\\Views\\Payroll\\SalaryStructures.cshtml",
+              "ToolTip": "C:\\PIAPayroll - Copy\\PIA.Payroll\\PIA.Payroll.Web\\Views\\Payroll\\SalaryStructures.cshtml",
+              "RelativeToolTip": "PIA.Payroll.Web\\Views\\Payroll\\SalaryStructures.cshtml",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAwwFQAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-27T22:36:18.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Payslip.cshtml",
+              "DocumentMoniker": "C:\\PIAPayroll - Copy\\PIA.Payroll\\PIA.Payroll.Web\\Views\\Payroll\\Payslip.cshtml",
+              "RelativeDocumentMoniker": "PIA.Payroll.Web\\Views\\Payroll\\Payslip.cshtml",
+              "ToolTip": "C:\\PIAPayroll - Copy\\PIA.Payroll\\PIA.Payroll.Web\\Views\\Payroll\\Payslip.cshtml",
+              "RelativeToolTip": "PIA.Payroll.Web\\Views\\Payroll\\Payslip.cshtml",
+              "ViewState": "AgIAALkAAAAAAAAAAAAwwMwAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-24T10:27:30.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\PIAPayroll - Copy\\PIA.Payroll\\PIA.Payroll.Web\\Views\\Payroll\\Index.cshtml",
+              "RelativeDocumentMoniker": "PIA.Payroll.Web\\Views\\Payroll\\Index.cshtml",
+              "ToolTip": "C:\\PIAPayroll - Copy\\PIA.Payroll\\PIA.Payroll.Web\\Views\\Payroll\\Index.cshtml",
+              "RelativeToolTip": "PIA.Payroll.Web\\Views\\Payroll\\Index.cshtml",
+              "ViewState": "AgIAAHkAAAAAAAAAAAAwwIwAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-24T10:23:01.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\PIAPayroll - Copy\\PIA.Payroll\\PIA.Payroll.Web\\Views\\Employee\\Index.cshtml",
+              "RelativeDocumentMoniker": "PIA.Payroll.Web\\Views\\Employee\\Index.cshtml",
+              "ToolTip": "C:\\PIAPayroll - Copy\\PIA.Payroll\\PIA.Payroll.Web\\Views\\Employee\\Index.cshtml",
+              "RelativeToolTip": "PIA.Payroll.Web\\Views\\Employee\\Index.cshtml",
+              "ViewState": "AgIAAIwAAAAAAAAAAAAwwJ8AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-24T09:52:31.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\PIAPayroll - Copy\\PIA.Payroll\\PIA.Payroll.Web\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "PIA.Payroll.Web\\Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\PIAPayroll - Copy\\PIA.Payroll\\PIA.Payroll.Web\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "PIA.Payroll.Web\\Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAALkAAAAAAAAAAAAswMYAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-24T10:01:07.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\PIAPayroll - Copy\\PIA.Payroll\\PIA.Payroll.Web\\Views\\Employee\\Edit.cshtml",
+              "RelativeDocumentMoniker": "PIA.Payroll.Web\\Views\\Employee\\Edit.cshtml",
+              "ToolTip": "C:\\PIAPayroll - Copy\\PIA.Payroll\\PIA.Payroll.Web\\Views\\Employee\\Edit.cshtml",
+              "RelativeToolTip": "PIA.Payroll.Web\\Views\\Employee\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-24T09:56:56.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\PIAPayroll - Copy\\PIA.Payroll\\PIA.Payroll.Web\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "PIA.Payroll.Web\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\PIAPayroll - Copy\\PIA.Payroll\\PIA.Payroll.Web\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "PIA.Payroll.Web\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAADUBAAAAAAAAAIAwwD8BAACOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-24T09:55:54.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\PIAPayroll - Copy\\PIA.Payroll\\PIA.Payroll.Web\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "PIA.Payroll.Web\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\PIAPayroll - Copy\\PIA.Payroll\\PIA.Payroll.Web\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "PIA.Payroll.Web\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAwwEAAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-24T09:50:06.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\PIAPayroll - Copy\\PIA.Payroll\\PIA.Payroll.Web\\Program.cs",
+              "RelativeDocumentMoniker": "PIA.Payroll.Web\\Program.cs",
+              "ToolTip": "C:\\PIAPayroll - Copy\\PIA.Payroll\\PIA.Payroll.Web\\Program.cs",
+              "RelativeToolTip": "PIA.Payroll.Web\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-21T08:56:04.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\PIAPayroll - Copy\\PIA.Payroll\\PIA.Payroll.Web\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "PIA.Payroll.Web\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\PIAPayroll - Copy\\PIA.Payroll\\PIA.Payroll.Web\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "PIA.Payroll.Web\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-21T09:40:28.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "20260921090916_InitialCreate.Designer.cs",
+              "DocumentMoniker": "C:\\PIAPayroll - Copy\\PIA.Payroll\\PIA.Payroll.Infrastructure\\Migrations\\20260921090916_InitialCreate.Designer.cs",
+              "RelativeDocumentMoniker": "PIA.Payroll.Infrastructure\\Migrations\\20260921090916_InitialCreate.Designer.cs",
+              "ToolTip": "C:\\PIAPayroll - Copy\\PIA.Payroll\\PIA.Payroll.Infrastructure\\Migrations\\20260921090916_InitialCreate.Designer.cs",
+              "RelativeToolTip": "PIA.Payroll.Infrastructure\\Migrations\\20260921090916_InitialCreate.Designer.cs",
+              "ViewState": "AgIAAGQBAAAAAAAAAAAwwGkBAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-21T09:38:11.93Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\PIAPayroll - Copy\\PIA.Payroll\\PIA.Payroll.Domain\\Entities\\Employee.cs",
+              "RelativeDocumentMoniker": "PIA.Payroll.Domain\\Entities\\Employee.cs",
+              "ToolTip": "C:\\PIAPayroll - Copy\\PIA.Payroll\\PIA.Payroll.Domain\\Entities\\Employee.cs",
+              "RelativeToolTip": "PIA.Payroll.Domain\\Entities\\Employee.cs",
+              "ViewState": "AgIAAB4AAAD+TeAETuA5wCEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-21T07:57:02.484Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\PIAPayroll - Copy\\PIA.Payroll\\PIA.Payroll.Infrastructure\\Identity\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "PIA.Payroll.Infrastructure\\Identity\\ApplicationUser.cs",
+              "ToolTip": "C:\\PIAPayroll - Copy\\PIA.Payroll\\PIA.Payroll.Infrastructure\\Identity\\ApplicationUser.cs",
+              "RelativeToolTip": "PIA.Payroll.Infrastructure\\Identity\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-21T08:44:28.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "20260921090916_InitialCreate.cs",
+              "DocumentMoniker": "C:\\PIAPayroll - Copy\\PIA.Payroll\\PIA.Payroll.Infrastructure\\Migrations\\20260921090916_InitialCreate.cs",
+              "RelativeDocumentMoniker": "PIA.Payroll.Infrastructure\\Migrations\\20260921090916_InitialCreate.cs",
+              "ToolTip": "C:\\PIAPayroll - Copy\\PIA.Payroll\\PIA.Payroll.Infrastructure\\Migrations\\20260921090916_InitialCreate.cs",
+              "RelativeToolTip": "PIA.Payroll.Infrastructure\\Migrations\\20260921090916_InitialCreate.cs",
+              "ViewState": "AgIAAIUAAAAAAAAAAAAgwIUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-21T09:09:18.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\PIAPayroll - Copy\\PIA.Payroll\\PIA.Payroll.Web\\appsettings.json",
+              "RelativeDocumentMoniker": "PIA.Payroll.Web\\appsettings.json",
+              "ToolTip": "C:\\PIAPayroll - Copy\\PIA.Payroll\\PIA.Payroll.Web\\appsettings.json",
+              "RelativeToolTip": "PIA.Payroll.Web\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-09-21T09:00:51.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "PIA.Payroll.Web.csproj",
+              "DocumentMoniker": "C:\\PIAPayroll - Copy\\PIA.Payroll\\PIA.Payroll.Web\\PIA.Payroll.Web.csproj",
+              "RelativeDocumentMoniker": "PIA.Payroll.Web\\PIA.Payroll.Web.csproj",
+              "ToolTip": "C:\\PIAPayroll - Copy\\PIA.Payroll\\PIA.Payroll.Web\\PIA.Payroll.Web.csproj",
+              "RelativeToolTip": "PIA.Payroll.Web\\PIA.Payroll.Web.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-09-21T06:57:00.515Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "PayrollDbContext.cs",
+              "DocumentMoniker": "C:\\PIAPayroll - Copy\\PIA.Payroll\\PIA.Payroll.Infrastructure\\Data\\PayrollDbContext.cs",
+              "RelativeDocumentMoniker": "PIA.Payroll.Infrastructure\\Data\\PayrollDbContext.cs",
+              "ToolTip": "C:\\PIAPayroll - Copy\\PIA.Payroll\\PIA.Payroll.Infrastructure\\Data\\PayrollDbContext.cs",
+              "RelativeToolTip": "PIA.Payroll.Infrastructure\\Data\\PayrollDbContext.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAkwBQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-21T08:51:06.643Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Designation.cs",
+              "DocumentMoniker": "C:\\PIAPayroll - Copy\\PIA.Payroll\\PIA.Payroll.Domain\\Entities\\Designation.cs",
+              "RelativeDocumentMoniker": "PIA.Payroll.Domain\\Entities\\Designation.cs",
+              "ToolTip": "C:\\PIAPayroll - Copy\\PIA.Payroll\\PIA.Payroll.Domain\\Entities\\Designation.cs",
+              "RelativeToolTip": "PIA.Payroll.Domain\\Entities\\Designation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-21T07:59:32.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Department.cs",
+              "DocumentMoniker": "C:\\PIAPayroll - Copy\\PIA.Payroll\\PIA.Payroll.Domain\\Entities\\Department.cs",
+              "RelativeDocumentMoniker": "PIA.Payroll.Domain\\Entities\\Department.cs",
+              "ToolTip": "C:\\PIAPayroll - Copy\\PIA.Payroll\\PIA.Payroll.Domain\\Entities\\Department.cs",
+              "RelativeToolTip": "PIA.Payroll.Domain\\Entities\\Department.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-21T07:59:07.771Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "PIA.Payroll.Domain.csproj",
+              "DocumentMoniker": "C:\\PIAPayroll - Copy\\PIA.Payroll\\PIA.Payroll.Domain\\PIA.Payroll.Domain.csproj",
+              "RelativeDocumentMoniker": "PIA.Payroll.Domain\\PIA.Payroll.Domain.csproj",
+              "ToolTip": "C:\\PIAPayroll - Copy\\PIA.Payroll\\PIA.Payroll.Domain\\PIA.Payroll.Domain.csproj",
+              "RelativeToolTip": "PIA.Payroll.Domain\\PIA.Payroll.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-09-21T07:07:00.746Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "PIA.Payroll.Infrastructure.csproj",
+              "DocumentMoniker": "C:\\PIAPayroll - Copy\\PIA.Payroll\\PIA.Payroll.Infrastructure\\PIA.Payroll.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "PIA.Payroll.Infrastructure\\PIA.Payroll.Infrastructure.csproj",
+              "ToolTip": "C:\\PIAPayroll - Copy\\PIA.Payroll\\PIA.Payroll.Infrastructure\\PIA.Payroll.Infrastructure.csproj",
+              "RelativeToolTip": "PIA.Payroll.Infrastructure\\PIA.Payroll.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-09-21T06:56:23.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\PIAPayroll - Copy\\PIA.Payroll\\PIA.Payroll.Domain\\Class1.cs",
+              "RelativeDocumentMoniker": "PIA.Payroll.Domain\\Class1.cs",
+              "ToolTip": "C:\\PIAPayroll - Copy\\PIA.Payroll\\PIA.Payroll.Domain\\Class1.cs",
+              "RelativeToolTip": "PIA.Payroll.Domain\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-21T06:51:48.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "PIA.Payroll.Application.csproj",
+              "DocumentMoniker": "C:\\PIAPayroll - Copy\\PIA.Payroll\\PIA.Payroll.Application\\PIA.Payroll.Application.csproj",
+              "RelativeDocumentMoniker": "PIA.Payroll.Application\\PIA.Payroll.Application.csproj",
+              "ToolTip": "C:\\PIAPayroll - Copy\\PIA.Payroll\\PIA.Payroll.Application\\PIA.Payroll.Application.csproj",
+              "RelativeToolTip": "PIA.Payroll.Application\\PIA.Payroll.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-09-21T06:55:32.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\PIAPayroll - Copy\\PIA.Payroll\\PIA.Payroll.Infrastructure\\Class1.cs",
+              "RelativeDocumentMoniker": "PIA.Payroll.Infrastructure\\Class1.cs",
+              "ToolTip": "C:\\PIAPayroll - Copy\\PIA.Payroll\\PIA.Payroll.Infrastructure\\Class1.cs",
+              "RelativeToolTip": "PIA.Payroll.Infrastructure\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-21T06:54:41.786Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\PIAPayroll - Copy\\PIA.Payroll\\PIA.Payroll.Application\\Class1.cs",
+              "RelativeDocumentMoniker": "PIA.Payroll.Application\\Class1.cs",
+              "ToolTip": "C:\\PIAPayroll - Copy\\PIA.Payroll\\PIA.Payroll.Application\\Class1.cs",
+              "RelativeToolTip": "PIA.Payroll.Application\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-21T06:53:41.099Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

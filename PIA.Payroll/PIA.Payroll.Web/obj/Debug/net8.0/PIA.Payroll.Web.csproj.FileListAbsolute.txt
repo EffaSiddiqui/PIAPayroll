@@ -1,0 +1,481 @@
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\appsettings.Development.json
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\appsettings.json
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\PIA.Payroll.Web.staticwebassets.runtime.json
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\PIA.Payroll.Web.staticwebassets.endpoints.json
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\PIA.Payroll.Web.exe
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\PIA.Payroll.Web.deps.json
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\PIA.Payroll.Web.runtimeconfig.json
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\PIA.Payroll.Web.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\PIA.Payroll.Web.pdb
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Azure.Core.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Azure.Identity.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Humanizer.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\System.ClientModel.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\System.CodeDom.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\System.Composition.Convention.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\System.Composition.Hosting.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\System.Composition.Runtime.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\System.Composition.TypedParts.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\System.Memory.Data.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\PIA.Payroll.Application.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\PIA.Payroll.Domain.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\PIA.Payroll.Infrastructure.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\PIA.Payroll.Application.pdb
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\PIA.Payroll.Infrastructure.pdb
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\PIA.Payroll.Domain.pdb
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\obj\Debug\net8.0\PIA.Payroll.Web.csproj.AssemblyReference.cache
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\obj\Debug\net8.0\PIA.Payroll.Web.GeneratedMSBuildEditorConfig.editorconfig
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\obj\Debug\net8.0\PIA.Payroll.Web.AssemblyInfoInputs.cache
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\obj\Debug\net8.0\PIA.Payroll.Web.AssemblyInfo.cs
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\obj\Debug\net8.0\PIA.Payroll.Web.csproj.CoreCompileInputs.cache
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\obj\Debug\net8.0\PIA.Payroll.Web.MvcApplicationPartsAssemblyInfo.cs
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\obj\Debug\net8.0\PIA.Payroll.Web.MvcApplicationPartsAssemblyInfo.cache
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\obj\Debug\net8.0\PIA.Payroll.Web.RazorAssemblyInfo.cache
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\obj\Debug\net8.0\PIA.Payroll.Web.RazorAssemblyInfo.cs
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\obj\Debug\net8.0\scopedcss\bundle\PIA.Payroll.Web.styles.css
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\obj\Debug\net8.0\scopedcss\projectbundle\PIA.Payroll.Web.bundle.scp.css
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\obj\Debug\net8.0\staticwebassets.build.json
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\obj\Debug\net8.0\staticwebassets.development.json
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\obj\Debug\net8.0\PIA.Payr.7495D423.Up2Date
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\obj\Debug\net8.0\PIA.Payroll.Web.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\obj\Debug\net8.0\refint\PIA.Payroll.Web.dll
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\obj\Debug\net8.0\PIA.Payroll.Web.pdb
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\obj\Debug\net8.0\PIA.Payroll.Web.genruntimeconfig.cache
+C:\PIAPayroll\PIA.Payroll\PIA.Payroll.Web\obj\Debug\net8.0\ref\PIA.Payroll.Web.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\appsettings.Development.json
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\appsettings.json
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\PIA.Payroll.Web.staticwebassets.endpoints.json
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\PIA.Payroll.Web.staticwebassets.runtime.json
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\PIA.Payroll.Web.exe
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\PIA.Payroll.Web.deps.json
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\PIA.Payroll.Web.runtimeconfig.json
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\PIA.Payroll.Web.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\PIA.Payroll.Web.pdb
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Azure.Core.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Azure.Identity.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Humanizer.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\System.ClientModel.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\System.CodeDom.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\System.Composition.Convention.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\System.Composition.Hosting.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\System.Composition.Runtime.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\System.Composition.TypedParts.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\System.Memory.Data.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\PIA.Payroll.Application.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\PIA.Payroll.Domain.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\PIA.Payroll.Infrastructure.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\PIA.Payroll.Application.pdb
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\PIA.Payroll.Infrastructure.pdb
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\PIA.Payroll.Domain.pdb
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\obj\Debug\net8.0\PIA.Payroll.Web.csproj.AssemblyReference.cache
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\obj\Debug\net8.0\PIA.Payroll.Web.GeneratedMSBuildEditorConfig.editorconfig
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\obj\Debug\net8.0\PIA.Payroll.Web.AssemblyInfoInputs.cache
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\obj\Debug\net8.0\PIA.Payroll.Web.AssemblyInfo.cs
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\obj\Debug\net8.0\PIA.Payroll.Web.csproj.CoreCompileInputs.cache
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\obj\Debug\net8.0\PIA.Payroll.Web.MvcApplicationPartsAssemblyInfo.cs
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\obj\Debug\net8.0\PIA.Payroll.Web.MvcApplicationPartsAssemblyInfo.cache
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\obj\Debug\net8.0\PIA.Payroll.Web.RazorAssemblyInfo.cache
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\obj\Debug\net8.0\PIA.Payroll.Web.RazorAssemblyInfo.cs
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\obj\Debug\net8.0\scopedcss\bundle\PIA.Payroll.Web.styles.css
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\obj\Debug\net8.0\scopedcss\projectbundle\PIA.Payroll.Web.bundle.scp.css
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\obj\Debug\net8.0\staticwebassets.build.json
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\obj\Debug\net8.0\staticwebassets.development.json
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\obj\Debug\net8.0\PIA.Payr.7495D423.Up2Date
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\obj\Debug\net8.0\PIA.Payroll.Web.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\obj\Debug\net8.0\refint\PIA.Payroll.Web.dll
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\obj\Debug\net8.0\PIA.Payroll.Web.pdb
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\obj\Debug\net8.0\PIA.Payroll.Web.genruntimeconfig.cache
+C:\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\obj\Debug\net8.0\ref\PIA.Payroll.Web.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\appsettings.Development.json
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\appsettings.json
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\PIA.Payroll.Web.staticwebassets.endpoints.json
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\PIA.Payroll.Web.staticwebassets.runtime.json
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\PIA.Payroll.Web.exe
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\PIA.Payroll.Web.deps.json
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\PIA.Payroll.Web.runtimeconfig.json
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\PIA.Payroll.Web.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\PIA.Payroll.Web.pdb
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Azure.Core.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Azure.Identity.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Humanizer.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\System.ClientModel.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\System.CodeDom.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\System.Composition.Convention.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\System.Composition.Hosting.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\System.Composition.Runtime.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\System.Composition.TypedParts.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\System.Memory.Data.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\PIA.Payroll.Application.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\PIA.Payroll.Domain.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\PIA.Payroll.Infrastructure.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\PIA.Payroll.Application.pdb
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\PIA.Payroll.Infrastructure.pdb
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\bin\Debug\net8.0\PIA.Payroll.Domain.pdb
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\obj\Debug\net8.0\PIA.Payroll.Web.csproj.AssemblyReference.cache
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\obj\Debug\net8.0\PIA.Payroll.Web.GeneratedMSBuildEditorConfig.editorconfig
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\obj\Debug\net8.0\PIA.Payroll.Web.AssemblyInfoInputs.cache
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\obj\Debug\net8.0\PIA.Payroll.Web.AssemblyInfo.cs
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\obj\Debug\net8.0\PIA.Payroll.Web.csproj.CoreCompileInputs.cache
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\obj\Debug\net8.0\PIA.Payroll.Web.MvcApplicationPartsAssemblyInfo.cs
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\obj\Debug\net8.0\PIA.Payroll.Web.MvcApplicationPartsAssemblyInfo.cache
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\obj\Debug\net8.0\PIA.Payroll.Web.RazorAssemblyInfo.cache
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\obj\Debug\net8.0\PIA.Payroll.Web.RazorAssemblyInfo.cs
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\obj\Debug\net8.0\scopedcss\bundle\PIA.Payroll.Web.styles.css
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\obj\Debug\net8.0\scopedcss\projectbundle\PIA.Payroll.Web.bundle.scp.css
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\obj\Debug\net8.0\staticwebassets.build.json
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\obj\Debug\net8.0\staticwebassets.development.json
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\obj\Debug\net8.0\PIA.Payr.7495D423.Up2Date
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\obj\Debug\net8.0\PIA.Payroll.Web.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\obj\Debug\net8.0\refint\PIA.Payroll.Web.dll
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\obj\Debug\net8.0\PIA.Payroll.Web.pdb
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\obj\Debug\net8.0\PIA.Payroll.Web.genruntimeconfig.cache
+C:\PIAPayroll.workingonthis - Copy\PIAPayroll - Copy\PIA.Payroll\PIA.Payroll.Web\obj\Debug\net8.0\ref\PIA.Payroll.Web.dll
